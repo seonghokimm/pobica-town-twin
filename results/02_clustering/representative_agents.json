@@ -1,0 +1,104 @@
+﻿[
+  {
+    "policy_id": "화순군 100원 효도택시 운영",
+    "persona_id": "HW093",
+    "satisfaction_score": 5.0,
+    "summary_keyword": "이동권",
+    "opinion_text": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+    "region_name_kr": "동복면",
+    "age": 75,
+    "age_group": "70대이상",
+    "persona_policy_fit": null,
+    "sheet_name": "",
+    "raw_text": "{\"persona_id\": \"HW093\", \"region_name_kr\": \"동복면\", \"age\": 75, \"sex\": \"남자\", \"occupation\": \"건물 경비원\", \"satisfaction_score\": 5, \"stance\": \"찬성\", \"summary_keyword\": \"이동권\", \"opinion_text\": \"내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-동복면-001\", \"IND-동복면-002\"], \"generation_method\": \"openai_api\"}",
+    "extra": {
+      "persona_id": "HW093",
+      "region_name_kr": "동복면",
+      "age": 75,
+      "sex": "남자",
+      "occupation": "건물 경비원",
+      "satisfaction_score": 5,
+      "stance": "찬성",
+      "summary_keyword": "이동권",
+      "opinion_text": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+      "reasoning_basis": "",
+      "used_rag_ids": [
+        "BUS-동복면-001",
+        "IND-동복면-002"
+      ],
+      "generation_method": "openai_api"
+    },
+    "cluster_id": 0,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_medoid_distance": 0.356231,
+    "membership_probability": 1.0
+  },
+  {
+    "policy_id": "화순군 100원 효도택시 운영",
+    "persona_id": "HW065",
+    "satisfaction_score": 3.0,
+    "summary_keyword": "대중교통 이용",
+    "opinion_text": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.",
+    "region_name_kr": "화순읍",
+    "age": 67,
+    "age_group": "50-60대",
+    "persona_policy_fit": null,
+    "sheet_name": "",
+    "raw_text": "{\"persona_id\": \"HW065\", \"region_name_kr\": \"화순읍\", \"age\": 67, \"sex\": \"남자\", \"occupation\": \"무직\", \"satisfaction_score\": 3, \"stance\": \"중립\", \"summary_keyword\": \"대중교통 이용\", \"opinion_text\": \"나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-화순읍-001\", \"BUS-화순읍-002\"], \"generation_method\": \"openai_api\"}",
+    "extra": {
+      "persona_id": "HW065",
+      "region_name_kr": "화순읍",
+      "age": 67,
+      "sex": "남자",
+      "occupation": "무직",
+      "satisfaction_score": 3,
+      "stance": "중립",
+      "summary_keyword": "대중교통 이용",
+      "opinion_text": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.",
+      "reasoning_basis": "",
+      "used_rag_ids": [
+        "BUS-화순읍-001",
+        "BUS-화순읍-002"
+      ],
+      "generation_method": "openai_api"
+    },
+    "cluster_id": 1,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_medoid_distance": 0.207798,
+    "membership_probability": 1.0
+  },
+  {
+    "policy_id": "화순군 100원 효도택시 운영",
+    "persona_id": "HW023",
+    "satisfaction_score": 2.0,
+    "summary_keyword": "이동 자유",
+    "opinion_text": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.",
+    "region_name_kr": "화순읍",
+    "age": 45,
+    "age_group": "30-40대",
+    "persona_policy_fit": null,
+    "sheet_name": "",
+    "raw_text": "{\"persona_id\": \"HW023\", \"region_name_kr\": \"화순읍\", \"age\": 45, \"sex\": \"여자\", \"occupation\": \"공공행정 사무원\", \"satisfaction_score\": 2, \"stance\": \"조건부 반대\", \"summary_keyword\": \"이동 자유\", \"opinion_text\": \"나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-화순읍-001\", \"BUS-화순읍-002\"], \"generation_method\": \"openai_api\"}",
+    "extra": {
+      "persona_id": "HW023",
+      "region_name_kr": "화순읍",
+      "age": 45,
+      "sex": "여자",
+      "occupation": "공공행정 사무원",
+      "satisfaction_score": 2,
+      "stance": "조건부 반대",
+      "summary_keyword": "이동 자유",
+      "opinion_text": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.",
+      "reasoning_basis": "",
+      "used_rag_ids": [
+        "BUS-화순읍-001",
+        "BUS-화순읍-002"
+      ],
+      "generation_method": "openai_api"
+    },
+    "cluster_id": 2,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_medoid_distance": 0.258633,
+    "membership_probability": 1.0
+  }
+]

@@ -1,0 +1,1709 @@
+﻿{
+  "created_at": "2026-07-12T03:46:20",
+  "policy_name": "화순군 100원 효도택시 운영 개선안",
+  "before_score": 2.84,
+  "after_score": 3.15,
+  "delta_score": 0.31,
+  "reflection_rate": 100.0,
+  "ttest": {
+    "n": 100,
+    "df": 99,
+    "alpha": 0.05,
+    "mean_before": 2.84,
+    "mean_after": 3.15,
+    "mean_diff": 0.31,
+    "t_stat": 5.0443,
+    "p_value": 2e-06,
+    "significant": true,
+    "direction": "increase",
+    "method": "paired t-test (scipy.stats.ttest_rel)"
+  },
+  "before_distribution": {
+    "1": 2,
+    "2": 48,
+    "3": 24,
+    "4": 16,
+    "5": 10
+  },
+  "after_distribution": {
+    "1": 0,
+    "2": 30,
+    "3": 36,
+    "4": 23,
+    "5": 11
+  },
+  "after_keywords": [
+    {
+      "keyword": "이동 자유",
+      "count": 50
+    },
+    {
+      "keyword": "대중교통 접근성",
+      "count": 9
+    },
+    {
+      "keyword": "이동권",
+      "count": 8
+    },
+    {
+      "keyword": "이동취약성",
+      "count": 6
+    },
+    {
+      "keyword": "대중교통 이용",
+      "count": 5
+    }
+  ],
+  "opinion_change": {
+    "improved_count": 23,
+    "worsened_count": 0,
+    "unchanged_count": 77,
+    "positive_drivers": [
+      "이동 자유",
+      "대중교통 접근성",
+      "이동취약성",
+      "이동편의",
+      "대중교통 이용"
+    ],
+    "negative_reducers": [
+      "정책 우선순위",
+      "정책 대상 부적합"
+    ],
+    "new_concerns": [],
+    "resolved_concerns": [
+      "정책 우선순위",
+      "정책 대상 부적합"
+    ],
+    "worsening_drivers": []
+  },
+  "reflection": {
+    "items": [
+      {
+        "title": "화순군은 100원 효도택시 정책을 계속 운영하여 자차가 없는 고령 오지마을 주민들의 병원·시장 등 생활 필수시설 이동에 실질적 도움을 지속 제공해야 한다. 또한, 대중교통 불편이 큰 고령 주민들의 특수성을 감안하여 정책 지원을 유지·강화할 필요가 있다.",
+        "reason": "수정 정책에서 확인된 관련어: 화순군은, 100원, 효도택시, 정책을, 자차가, 없는, 고령, 오지마을, 주민들의, 병원 (핵심어 10/12 일치).",
+        "verdict": "Resolved",
+        "score": 1.0,
+        "matched": [
+          "화순군은",
+          "100원",
+          "효도택시",
+          "정책을",
+          "자차가",
+          "없는",
+          "고령",
+          "오지마을",
+          "주민들의",
+          "병원"
+        ]
+      }
+    ],
+    "total": 1,
+    "resolved": 1,
+    "partially": 0,
+    "unresolved": 0,
+    "score_sum": 1.0,
+    "crr": 100.0
+  },
+  "citizen_comparison": [
+    {
+      "id": "HW001",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "난 화순읍에 살고 자차도 있어서 100원 택시는 별로 쓸 일이 없는데, 그래도 필요한 어르신들한텐 도움이 되겠지, 내겐 먼 얘기야.",
+      "after_opinion": "나는 화순읍에 살고 자차도 있어서 교통 이용에 큰 불편은 없는데, 그래도 100원 택시 같은 건 이동 약자분들에게는 확실히 도움 될 것 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW002",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있으니까 100원 택시는 좋은 정책인 줄 알지만 솔직히 크게 와닿진 않아, 취업 준비가 더 급하거든.",
+      "after_opinion": "난 집이 읍내라서 버스나 택시 탈 일이 별로 없고, 취업 준비하느라 교통복지는 크게 와닿지 않아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW003",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어서 100원 택시는 괜찮은 정책이지만 실질적으로 내 생활엔 크게 도움 안 되네.",
+      "after_opinion": "내가 화순읍 살면서 자차도 있고 버스도 다니고 해서, 이 100원 택시는 솔직히 내 생활과는 좀 거리가 있네. 그래도 어르신들 이동에 도움 된다면 그건 좋은 일이지.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW004",
+      "before_score": 1,
+      "after_score": 2,
+      "delta": 1,
+      "before_keywords": [
+        "정책 우선순위"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에 살고, 차도 있으니 100원 택시 같은 건 거의 필요 없고, 취업 준비가 더 급해 이런 건 별로 내 얘기 같지 않아.",
+      "after_opinion": "나는 아직 19살이고 부모님 차도 있어서 택시나 버스를 자주 안 써서 솔직히 이 정책이 내 일상엔 큰 도움이 안 되지만, 교통 약자분들한텐 좋은 정책일 거 같아요.",
+      "before_stance": "반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW005",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "이동 제약"
+      ],
+      "after_keywords": [
+        "이동 편의성"
+      ],
+      "before_opinion": "나는 29살에 백아면에서 부모님과 살고, 버스 시간도 한정적이라 100원 택시가 필요할 때 쓰기 좋을 것 같아.",
+      "after_opinion": "백아면에 살면서 학교나 병원 갈 때 정해진 버스 시간에 맞추기 애매했는데, 100원 택시가 있으면 확실히 편할 것 같아 더 안정적으로 다닐 수 있겠네.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW006",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 청풍면 젊은 취업 준비생이라 택시나 버스 쓸 일이 거의 없어서, 이런 100원 택시 정책은 어르신들에겐 좋겠지만 내겐 좀 먼 이야기같아.",
+      "after_opinion": "청풍면은 버스도 잘 안 다니고 자차 없으면 불편한데, 100원 효도택시가 있으면 병원도 가고 시장도 다니기 수월해져서 괜찮다 생각해요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW007",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에서 차 타고 다니는데 이런 100원 효도택시는 어르신들한테 도움이 되겠지만 나는 큰 실익이 없어서 그냥 잘 모르겠네.",
+      "after_opinion": "나는 차도 있고 걸어 다니는 데 불편함도 없는데, 이런 100원 택시는 오지나 노인들에겐 도움이 되겠지만 내겐 좀 먼 이야기야.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW008",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "정책 대상 부적합"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 임용 준비하느라 주로 집과 광주 등 큰 도시만 다니는데, 이 100원 효도택시는 나랑은 좀 거리가 있지. 그래도 면 지역 주민들한테 실질적 도움 될 것 같아 긍정은 해.",
+      "after_opinion": "나는 면에 살지만 혼자 차는 있고, 주로 자가용이나 버스 시간 맞춰 다니니까 100원 택시는 크게 내 일상이 바뀔 것 같진 않아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW009",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "나는 동복면에 살지만 자차가 있어서 100원 택시는 크게 와닿지 않고, 취업 준비 때문에 교통 문제보다 일자리 걱정이 더 크다.",
+      "after_opinion": "동복면에 살면서 버스 시간이 애매하고 자차도 없으니 100원 효도택시 같은 수요응답형 택시가 병원 가는 데 큰 도움이 될 것 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW010",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "난 한천면에 살고 자차도 있고, 출퇴근하면서 택시나 버스 쓸 일 거의 없어서 이런 100원 택시가 내 생활에는 딱히 도움이 안 돼.",
+      "after_opinion": "난 한천면 살지만 다행히 버스 노선도 있고, 100원 택시는 크게 필요 없어서 굳이 신경 쓸 일은 아니네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW011",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살면서 차 타고 다니는 내가 굳이 100원 택시 쓸 일은 별로 없는데, 그래도 교통 약한 분들한테 도움이 된다면 나쁘진 않을 것 같아.",
+      "after_opinion": "화순읍에 살면서 자차가 있고 대중교통도 나쁘지 않은데, 솔직히 이런 100원 택시 정책은 고령이나 오지 주민들한테 더 필요한 것 같아요. 나 같은 젊은 청년에겐 별로 와 닿지 않는 정책이네요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW012",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "나처럼 동면에서 자취하는 젊은이는 자차 없긴 해도 주로 도보나 스터디 카페 근처만 다녀서 이 100원 택시는 별로 내 일상엔 크게 도움 안 돼.",
+      "after_opinion": "동면에 살면서 버스 시간도 애매하고 자차도 없으니 이런 100원 효도택시 같은 수요응답형 택시가 꽤 실질적 도움이 될 것 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW013",
+      "before_score": 1,
+      "after_score": 2,
+      "delta": 1,
+      "before_keywords": [
+        "정책 우선순위"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 아직 젊고 대중교통 이용 거의 없는데 이런 100원 택시보다 취업 지원이나 미래 대비 정책이 더 필요해.",
+      "after_opinion": "난 화순읍에 살고 차도 있으니 100원 택시 같은 건 도움은 별로 안 되고, 이런 건 오히려 교통약자분들한테 집중됐으면 좋겠어.",
+      "before_stance": "반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW014",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 불편"
+      ],
+      "before_opinion": "나는 29살에 전기 용접 쟁이라 차로 다니고 버스·택시 쓸 일이 별로 없는데, 이 정책은 주로 고령 어르신들한테 맞는 거라 내겐 좀 맞지 않네.",
+      "after_opinion": "나는 이서면에 사는 29살 청년이고, 버스도 드문드문이라 100원 효도택시가 있으면 병원 가거나 동네 나들이할 때 훨씬 편할 것 같다, 다만 나 같은 젊은이도 조금 더 배려해주면 좋겠어.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW015",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에 살고 차로 퇴근하고 다니니 100원 효도택시는 내 생활과 거리가 좀 있네, 그래도 필요하신 어르신들에겐 분명 도움이 되겠지.",
+      "after_opinion": "화순 읍내라서 자차로 다니는데, 이런 효도택시 정책은 필요한 분들께 좋은 거지만 내겐 크게 와 닿지 않아 아쉽네요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW016",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순 읍내에서 차로 다니니까 이런 100원 효도택시가 큰 도움이 될지는 잘 모르겠네, 그래도 오지 어르신들이 병원이나 시장에 갈 때는 분명 도움이 될 거야.",
+      "after_opinion": "나는 읍내에 살고 차도 있어서 다닐 때 큰 불편이 없지만, 고령층이나 오지 주민들에게 꼭 필요할 정책이라 응원은 해.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW017",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차로 출퇴근하는데 100원 택시 같은 건 고령자나 오지 주민에겐 도움이 되겠지만 내 생활에는 크게 와닿지 않아.",
+      "after_opinion": "나는 차로 출퇴근하고 집 근처에서 다 해결되니 100원 택시는 먼 정책 같고, 진짜 이동 불편한 분들한테 더 집중됐으면 해.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW018",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 차 끌고 다니니 100원 택시는 딱히 내 생활에 도움될 것 같진 않고, 오히려 이런 정책이 정말 필요한 분들한테 집중됐으면 해.",
+      "after_opinion": "나는 차로 다니고 버스도 시간 맞춰 잘 다녀서 100원 택시 같은 건 내 생활과 거리가 좀 있지, 그래도 몸 불편한 어르신들에겐 도움 될 정책 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW019",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "읍내 아파트 사는 저에겐 이 100원 효도택시가 별로 와닿지 않네요, 차도 있고 평소 대중교통 이용도 거의 없어서요.",
+      "after_opinion": "화순읍에서 차 타고 다니는 내가 100원 택시 같은 건 솔직히 별 필요 없고, 이런 정책은 주로 오지나 고령 분들한테 맞겠지.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW020",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 워낙 차로 이동하는 게 편해서 100원 효도택시 같은 건 고령자 분들한테나 필요한 정책이지, 내겐 별로 와닿지 않는구먼.",
+      "after_opinion": "나는 화순읍에 살고 차도 있으니 교통편이 크게 불편하지 않아, 이런 100원 택시 정책은 교통약자나 오지 마을 주민들에겐 도움이 되겠지만 내겐 별로 와닿지 않는다.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW021",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "난 화순읍에 자차로 다니는데 100원 택시는 오지에 사는 분들한텐 좋겠지만, 내 생활에겐 거의 필요 없는 정책이네.",
+      "after_opinion": "나는 자가용으로 출퇴근하고 평소 이동이 자유로워서 이 100원 택시 정책은 솔직히 나와는 좀 거리가 먼 이야기 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW022",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어서 100원 효도택시 같은 건 거의 쓸 일이 없고, 이런 건 오히려 면이나 오지에 사는 어르신들한테 더 필요한 정책 같은데.",
+      "after_opinion": "나는 화순읍에 살고 차도 있어서 이동에 큰 불편은 없는데, 오지나 고령분들한텐 분명 도움이 될 거라 생각해.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW023",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.",
+      "after_opinion": "화순읍에서 차로 다니는 나한텐 100원 택시가 크게 필요하지는 않지만, 오지 어르신들한텐 분명 도움이 될 거라 생각해요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW024",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동편의"
+      ],
+      "before_opinion": "도곡면에 살고 차가 있어서 그런지 100원 택시가 직접적으로 내 일상에 도움되는 건 못 느껴, 그래도 교통 어려운 어르신들한텐 좀 낫겠지.",
+      "after_opinion": "도곡면에 살면서 차는 있지만 버스 시간 제한에 맞추기 힘들 땐 이런 100원 효도택시가 꽤나 도움이 될 것 같아요, 가족 데리고 시장 가거나 병원 갈 때 부담이 줄겠네요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW025",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 자차가 있으니 택시나 버스에 의존할 일이 거의 없고, 이런 100원 택시 정책은 나와 별 상관 없지만 그래도 교통 약자에게는 도움이 되겠지.",
+      "after_opinion": "나는 화순읍에 자차로 다니니까 100원 택시 같은 건 별로 내 생활에 큰 도움은 못 되지만, 오지 어르신들한테는 분명 필요하겠더라구요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW026",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍이라 차 타고 이쪽저쪽 다니는 데 큰 불편 없고, 100원 택시가 필요한 분들이야 잘 쓰시겠지만 내 생활엔 크게 와닿지 않아.",
+      "after_opinion": "화순읍에 살면서 차 타고 다니는 게 편해서 그런지 100원 택시 같은 건 필요 느끼기 어려워, 그래도 오지 사는 분들에겐 도움 될 거 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW027",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어서 100원 효도택시 정책은 교통 약자들에겐 좋겠지만 내 삶과는 좀 거리가 있지.",
+      "after_opinion": "나는 화순읍 아파트에 차도 있고 평소 이동에 불편함 없는데, 이 정책은 고령이나 오지 주민들한테 더 필요한 것 같아 조금은 먼 얘기지.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW028",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "내가 차가 있어서 이동은 편한데, 그래도 버스 안 다니는 마을 어르신들이 택시 타기엔 좋겠다 싶긴 하네.",
+      "after_opinion": "나는 화순읍에 살고 차도 있으니 100원 택시는 별로 필요 없고, 오히려 배차 시간이나 예약 시스템이 좀 더 편해졌으면 좋겠네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW029",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동편의"
+      ],
+      "before_opinion": "난 능주면에 차 몰고 다니니 100원 택시는 솔직히 별 필요 없어 보이는데, 그래도 교통 약자들한텐 좀 도움되겠지.",
+      "after_opinion": "능주면에 살면서 차 없으면 이동 정말 불편한데, 100원 택시 같은 거 운행시간 좀 더 맞춰서 지원해주면 크게 도움이 될 거 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW030",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에서 자차로 출퇴근하고 대중교통은 잘 안 쓰니, 100원 택시는 옆집 어르신들한텐 좋겠다만 내겐 별 도움이 안 되네.",
+      "after_opinion": "읍내에 살고 차도 있어서 교통 불편은 별로 없고, 이 100원 택시 정책은 필요한 사람들에겐 도움 되겠지만 나한텐 좀 먼 이야기 같네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW031",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에서 차 끌고 다니는데 100원 택시 같은 건 오지나 고령자들한테나 실질적 도움이지, 난 잘 안 쓸 것 같다.",
+      "after_opinion": "난 화순읍에서 차 없으면 오히려 불편하다고 볼 수 없고, 대중교통도 쓸 만해서 이런 100원 택시는 먼 얘기지.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW032",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살면서 차로 다니는데 100원 택시가 큰 도움이 될지는 모르겠어요, 그래도 교통 약한 분들한텐 나쁘지 않겠죠.",
+      "after_opinion": "화순읍에 살고 자차도 있는데 평소 버스도 잘 다니고 해서 100원 택시는 딱히 내 생활엔 크게 도움 안 돼 보이네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW033",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살고 자가용도 있어 택시나 버스 이용은 별로 안 하는데, 그래도 오지 쪽 어르신들에겐 좋은 정책 같아요.",
+      "after_opinion": "읍내에 살면서 차도 있는데 대중교통은 가끔 쓸 뿐이라, 이 100원 택시 정책은 솔직히 내겐 그닥 와 닿지 않네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW034",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 읍내 아파트에 차도 있고, 택시나 버스를 자주 이용하지 않아서 이 100원 효도택시는 솔직히 내 생활과는 좀 거리가 있어 보이네.",
+      "after_opinion": "화순읍에 살고 자차도 있어서 100원 효도택시 같은 건 필요성을 잘 못 느끼지만, 교통 취약한 이웃들에겐 분명 도움이 될 정책 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW035",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "이동불편"
+      ],
+      "after_keywords": [
+        "이동 취약성"
+      ],
+      "before_opinion": "동면이라 버스가 시간에 맞추기도 쉽지 않고, 필요할 때 100원 택시가 있으면 병원이나 시장 갈 때 도움은 되겠네요.",
+      "after_opinion": "동면에 살면서 차는 있지만 버스가 드물고 몸도 가끔 불편하니 100원 효도택시가 병원 가기나 시장 볼 때 확실히 도움이 될 것 같아요.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW036",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "내가 화순읍에 살면서 차도 있고 평소 버스나 택시도 잘 이용하는 편이라, 이 100원 효도택시는 고령이나 농촌 오지분들에겐 좋겠지만 내겐 별로 와 닿지 않네.",
+      "after_opinion": "나는 차로 다니니 100원 효도택시 같은 건 크게 필요하지 않고, 그래도 교통약자들한테는 도움이 될 정책 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW037",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 이용"
+      ],
+      "before_opinion": "화순읍에 살면서 버스도 괜찮게 다니고 차도 있어서 100원 택시는 좋은 정책이긴 한데 내 생활에는 딱히 와닿지 않네요.",
+      "after_opinion": "화순읍에서 자차도 있고 크게 불편하지 않지만, 오지나 고령층에는 확실히 큰 도움이 될 정책 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW038",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍 살면서 차도 있고 버스도 꽤 있어서 100원 택시는 좋은 취지지만 내겐 실질적 도움은 별로 없으니 필요한 분들한텐 좋은 정책일 거야.",
+      "after_opinion": "우리 읍내 살면서 차가 있으니까 100원 택시는 딱히 손에 닿는 정책은 아닌데, 그래도 교통약자분들에겐 도움 될 테니 긍정적으로 보고 있어요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW039",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "면 지역 접근성"
+      ],
+      "before_opinion": "능주면 살긴 하는데 난 자차 있고 버스도 가끔 이용해서 100원 택시가 딱히 내 일상엔 큰 도움이 안 돼 보이네.",
+      "after_opinion": "능주면에 살면서 차가 있어서 이동은 편하지만, 그래도 100원 택시 같은 게 있으면 고령 어르신들 병원 가기에 좀 더 낫겠다 싶어.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW040",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차가 있어서 그런지 100원 택시가 내 생활에 크게 와 닿지 않네, 그래도 오지분들께는 도움 될 것 같아.",
+      "after_opinion": "난 화순읍이라 대중교통 접근이 비교적 편하고, 차도 있으니 100원 효도택시 같은 건 크게 필요 없지만 어르신들한테는 분명 도움될 정책이야.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW041",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살면서 자차도 있고 이동이 크게 불편하지 않아 이런 100원 택시는 오히려 면·오지 주민들한테 더 필요한 정책 같아 나에겐 딱히 와 닿지 않네.",
+      "after_opinion": "화순읍에 살고 차도 있으니 100원 택시는 솔직히 내 생활에 별 도움은 안 되지만, 교통약자들한텐 나쁘지 않은 정책인 것 같아요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW042",
+      "before_score": 2,
+      "after_score": 2,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에 살고 차도 있어 100원 효도택시는 별 필요 없는데, 그래도 농어촌 오지 어르신들에겐 꽤 도움이 될 정책인 것 같네.",
+      "after_opinion": "나는 읍내 아파트에서 차도 있고 버스도 꽤 잘 다녀서 크게 필요하진 않은데, 그래도 교통 약자인 이웃들에게는 도움이 될 것 같아 실효성은 좀 더 봐야겠다.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 반대"
+    },
+    {
+      "id": "HW043",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살면서 자차도 있고 대중교통도 꽤 잘 되어 있어서 이 100원 효도택시는 나한텐 별로 필요치는 않아 보여요.",
+      "after_opinion": "나는 자차로 웬만한 데 다 다니고 읍내라 100원 택시 같은 건 크게 필요 없지만, 오지에 사는 우리 이웃들에겐 분명 도움이 될 정책이라 생각해.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW044",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 접근성"
+      ],
+      "after_keywords": [
+        "교통편의"
+      ],
+      "before_opinion": "춘양면에 살면서 자차가 있어도 버스 시간 맞추기가 쉽지 않은데, 100원 택시가 있으면 병원이나 읍내 볼일 보러 갈 때 꽤 도움 될 것 같아요.",
+      "after_opinion": "춘양면 살아서 버스가 하루종일 자주 다니는 건 아니고, 자차 있긴 하지만 가족 병원 갈 때 100원 택시가 있으면 꽤 도움 될 듯해.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW045",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "화순읍에 살면서 차로 다니는 데 100원 택시가 내 생활엔 딱히 와닿지 않는 정책이긴 해도, 교통 약자들에겐 분명 도움이 되겠지요.",
+      "after_opinion": "화순읍에 살고 자차도 있고 대중교통도 나름 괜찮아서, 이 100원 택시 정책은 꼭 내 생활에 큰 변화를 주진 않지만, 오지 어르신들한텐 분명 필요하다고 봐.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW046",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통이용빈도"
+      ],
+      "before_opinion": "나는 화순읍내에서 차로 다니는 게 훨씬 편해서 100원 택시는 고령자랑 오지분들한테 더 필요할 것 같아.",
+      "after_opinion": "화순읍에 사니 차가 있어서 버스나 100원 택시는 가끔 필요할 때만 쓰는데, 그래도 교통약자분들한텐 의미 있는 정책인 것 같습니다.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW047",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "교통약자 지원"
+      ],
+      "before_opinion": "나는 자차로 다니고 교통은 큰 불편을 못 느끼는데, 이 효도택시가 필요한 건 오지나 고령층이지 읍내 사는 우리 같은 사람에겐 좀 먼 이야기야.",
+      "after_opinion": "화순읍에 살면서 차로 다니니 100원 택시가 내 생활에 큰 도움은 안 되지만, 교통약자분들한테는 그래도 필요한 정책 같아요.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW048",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 접근성"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "이양면에서 잡화점 하는 나로서는 대중교통이 좀 불편한데, 100원 효도택시가 있으면 읍내나 면사무소 갈 때 부담 줄여서 꽤 도움이 될 것 같네.",
+      "after_opinion": "이양면에서 작은 가게 운영하는 내 입장에선 자차 있긴 해도 농어촌버스 운행이 제한적이라 100원 택시가 병원이나 시장 가는 데 큰 도움 된다오.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW049",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용 빈도"
+      ],
+      "after_keywords": [
+        "대중교통 이용 빈도"
+      ],
+      "before_opinion": "화순읍에서 일하는 나로선 100원 효도택시가 크게 와닿진 않지만, 어르신들한텐 꽤 도움이 될 것 같아.",
+      "after_opinion": "나는 화순읍에서 차로 다니니까 100원 택시는 크게 안 쓰지만, 오지 어르신들에겐 진짜 필요한 정책이라 이해는 갑니다.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW050",
+      "before_score": 2,
+      "after_score": 4,
+      "delta": 2,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "면지역거주"
+      ],
+      "before_opinion": "나는 도곡면에 살면서 차로 다니니 효도택시가 큰 도움이 안 되고, 그래도 오지 사는 어르신들한텐 필요한 정책 같아.",
+      "after_opinion": "도곡면에 살면서 버스도 있고 차도 있으니 크게 불편하지는 않은데, 그래도 오지 주민들한테 100원 택시는 꽤 도움 될 정책이지, 배차 시간이랑 예약 문제만 좀 잘 됐으면 한다네.",
+      "before_stance": "조건부 반대",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW051",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 접근성"
+      ],
+      "after_keywords": [
+        "이동편의"
+      ],
+      "before_opinion": "사평면에 살면서 대중교통이 자주 없고 차가 있어도 버스 연결이 별로라 이런 100원 택시가 꽤 도움이 될 것 같아요, 다만 아직 자차로 완전 불편하지 않은 입장이라 이 정도 점수네요.",
+      "after_opinion": "사평면에 살면서 자차는 있지만, 대중교통 편의가 아직 부족해서 100원 효도택시는 지역 어르신들뿐 아니라 나같은 교통약자에게도 꽤 도움이 될 것 같아.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW052",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "읍내 살면서 차로 다니니 100원 택시가 내 생활에는 큰 도움이 안 되고, 그래도 교통약자들에겐 나름 의의가 있겠지.",
+      "after_opinion": "나는 자차도 있고 읍내라 대중교통이 불편할 정도는 아닌데, 그래도 오지나 고령 주민들한텐 100원 택시가 꽤 쓸모 있을 것 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW053",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용 빈도"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에서 차로 다니는 내가 보기에 100원 효도택시는 오지나 고령분들한테는 좋겠지만, 내 생활엔 크게 와 닿지 않는 정책이야.",
+      "after_opinion": "화순읍에 살면서 자차도 있고 버스 노선도 나쁘지 않은데, 100원 택시가 꼭 내 생활에는 큰 도움은 안 되지만 다른 이웃들한테는 필요한 정책인 거 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW054",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "화순읍에 살면서 차도 있고, 버스도 나름 괜찮아서 크게 도움이 될지는 모르겠지만, 그래도 어르신들한테는 나쁘지 않은 정책인 것 같아요.",
+      "after_opinion": "난 아직 차도 있고 읍내에서 일하며 비교적 자유롭게 다니니 100원 택시는 남 얘기 같지만, 그래도 오지 어르신들에겐 꼭 필요한 정책이라 잘 되었으면 해.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW055",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어 큰 불편은 없는데, 그래도 오지 어르신들에겐 저렴한 택시가 꽤 도움이 될 거라 생각해.",
+      "after_opinion": "나는 자차도 있고 읍내라서 이동이 크게 불편하지는 않은데, 고령이나 오지 사는 분들한테는 이 100원 택시가 진짜 큰 도움이 될 거 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW056",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에서 혼자 자차로 다니니 100원 효도택시가 크게 절실하진 않은데, 그래도 오지분들한텐 꽤 도움이 될 것 같아.",
+      "after_opinion": "내가 화순읍 아파트에 살고 자차도 있어서 병원 갈 때 크게 불편한 건 없는데, 그래도 100원 택시 같은 건 오지 주민들한테는 분명 도움이 될 거라 생각해.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW057",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 이용"
+      ],
+      "before_opinion": "화순읍에 살고 차도 있어서 크게 불편하지 않은데, 그래도 100원 택시가 교통 약자분들에게는 도움이 될 것 같아 다행이야.",
+      "after_opinion": "화순읍에 살고 자차도 있는데 버스 시간이 좀 제한적이라 가끔 택시나 버스 이용에 아쉬움은 있어도, 크게 불편하진 않아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW058",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있어 이동은 비교적 자유로운 편이라 100원 효도택시는 교통 약자분들에겐 좋은 제도 같지만 내 일상에는 크게 와 닿지 않네.",
+      "after_opinion": "화순읍에 살면서 자차로 다니는 편이라 100원 효도택시 같은 건 크게 필요하지 않지만, 그래도 읍 내 교통 약자들이 좀 더 편하게 다닐 수 있는 건 좋은 일 같아요.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW059",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 화순읍에서 혼자 살고, 버스를 종종 이용하지만 100원 효도택시가 오지 마을 어르신들에겐 좋겠다 싶고, 내겐 조금 먼 이야기 같네.",
+      "after_opinion": "화순읍에 사는 나로선 100원 택시가 절실할 정도는 아니지만, 그래도 병원 가거나 할 때 쓰면 편리하니까 아예 없는 것보단 낫지.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW060",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "버스이용현실"
+      ],
+      "before_opinion": "나는 읍내에 살고 차도 있어 병원이나 시장 갈 때 큰 불편은 없지만, 어르신들한테는 이런 100원 택시가 꽤 도움이 될 것 같긴 해.",
+      "after_opinion": "나는 화순읍 아파트에서 혼자 살면서 차도 없고 버스도 가끔 타지만, 100원 택시 같은 건 딱 필요한 사람들한테 맞는 정책인 것 같아, 내 생활엔 그닥 큰 도움이 되진 않아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW061",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍에서 자가용으로 자유롭게 다니니 100원 택시가 큰 도움은 안 되지만, 교통 약한 이웃들한테는 나름 도움이 될 것 같아.",
+      "after_opinion": "나는 화순읍에 살면서 차로 거의 다녀서 100원 효도택시 같은 건 잘 안 쓰지만, 어르신들한테는 실질적인 도움이 될 정책인 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW062",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 이용"
+      ],
+      "before_opinion": "나는 차 타고 읍내 여기저기 자주 다니니까 100원 택시가 얼마나 필요한지 실감은 안 나지만, 이런 교통 지원이 오지 마을 어르신들한테는 분명 도움이 될 것 같아.",
+      "after_opinion": "화순읍 아파트에 살면서 차도 있고 병원 갈 때도 큰 불편은 없지만, 그래도 이런 효도택시는 고생하는 면 지역 어르신들에겐 도움 될 것 같아.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW063",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 접근성"
+      ],
+      "after_keywords": [
+        "교통 접근성"
+      ],
+      "before_opinion": "춘양면에 사니까 버스가 자주 없어서 효도택시가 있으면 병원 가거나 시장 보는 데 큰 도움이 되겠어요, 다만 아직 자차가 있어서 완전 절실하진 않지만 좋은 정책입니다.",
+      "after_opinion": "63살에 춘양면 사는 나로서는 자가용 운전은 할 수 있지만, 버스 시간도 제한적이고 오지 주민들에겐 100원 효도택시가 꽤 도움이 될 것 같아.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW064",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 자차로 여기저기 편하게 다니니까 100원 택시가 딱히 필요하지는 않은데, 그래도 집 가까이 버스 안 다니는 오지분들한텐 쓸모 있겠다 싶어.",
+      "after_opinion": "화순읍에서 자가용도 있고 대중교통도 나쁘지 않아, 100원 택시는 어르신들께 좋은 정책이긴 한데 나는 크게 체감할 건 없네요.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW065",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용"
+      ],
+      "after_keywords": [
+        "대중교통 이용"
+      ],
+      "before_opinion": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.",
+      "after_opinion": "화순읍에 살면서 버스와 택시 이용이 크게 불편하지 않아 100원 택시가 내 생활에는 특별한 변화는 없지만, 오지 어르신들에겐 분명 도움이 될 것 같아요.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW066",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "교통접근성"
+      ],
+      "after_keywords": [
+        "배차 신뢰성"
+      ],
+      "before_opinion": "이양면에 사는 나 같은 중장년은 자가용도 없고 버스도 자주 없어서 100원 택시가 있으면 병원이나 장보러 갈 때 도움 될 것 같아, 다만 택시가 항상 바로 올지 걱정은 되네.",
+      "after_opinion": "이양면에 살면서 차는 있지만 버스 노선도 적고 병원 갈 때 택시 100원이면 부담 적어 꽤 쓸모 있겠다 싶네, 그래도 예약이나 배차가 잘 되는지 좀 지켜봐야겠어.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW067",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "난 화순읍에서 오래 살아 차로 다니는 걸 더 편하게 여기는데, 이 100원 택시는 오지 할매 할배들한테는 분명 큰 도움이겠더라구.",
+      "after_opinion": "나는 화순읍에 살고 차도 있어 이동에 큰 불편은 없지만, 그래도 이런 100원 택시 같은 건 오지에 사는 어르신들한테는 꽤 도움이 될 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW068",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "내가 읍내에 살다 보니 택시도 잘 다니고 버스도 꽤 있거든, 100원 택시가 꼭 내 생활을 크게 바꾸진 않을 것 같아.",
+      "after_opinion": "화순읍에 살고 차도 있어 평소 이동은 편하지만, 어르신들이나 차 없는 분들에겐 이런 100원 택시가 꽤 큰 도움이 될 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW069",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "교통접근성"
+      ],
+      "after_keywords": [
+        "교통취약지역"
+      ],
+      "before_opinion": "나는 도곡면에 살고 차도 있지만, 100원 택시가 필요한 이웃들에겐 큰 도움이 될 거라 생각하네. 내가 직접 쓰진 않아도 면 지역엔 이런 대중교통 지원이 꼭 필요하지.",
+      "after_opinion": "나는 도곡면에 살고 차도 있으니 버스나 택시를 많이 쓰진 않지만, 이런 100원 효도택시가 고령 어르신들 같은 교통 약자에겐 꽤 도움이 될 것 같네.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW070",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에 차도 있고 버스도 꽤 다니니 100원 택시는 큰 도움은 안 되지만, 고령 지인들한테는 괜찮은 제도일 거라 생각해.",
+      "after_opinion": "화순읍 살면서 차로 다니는 편이라 100원 택시 같은 건 크게 쓸 일이 없지만, 부족한 분들한텐 도움이 되지 않겠나 싶어.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW071",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "농촌교통"
+      ],
+      "after_keywords": [
+        "농촌대중교통"
+      ],
+      "before_opinion": "능주면에 살면서 차는 있지만, 농어촌버스가 한정적이라 100원 효도택시가 병원이나 시장 갈 때 정말 쓸모 있을 것 같아.",
+      "after_opinion": "능주면에서 차로 다니긴 하지만, 버스 시간도 한정적이고 병원 갈 땐 100원 효도택시가 있으면 훨씬 낫겠어, 그래서 이런 정책은 우리 같은 면 지역에서는 꽤 도움이 될 거야.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW072",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 의존도"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순읍 아파트에 살고 자차도 있어 100원 효도택시가 꼭 필요한 건 아니지만, 나이 들고 몸이 불편한 이웃들에겐 도움이 될 거라 생각해.",
+      "after_opinion": "난 화순읍 아파트에서 자차 타고 다니니 크게 필요는 없지만, 교통 불편한 이웃들에겐 그래도 도움이 되겠지.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW073",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "사평면에서 차도 없고, 버스도 잘 안 다니는데 100원 효도택시가 생기면 병원도 그렇고 시장 가는 데 큰 도움이 될 거야, 이런 거 진짜 절실하지.",
+      "after_opinion": "사평면에 살면서 차가 없으면 병원도 잘 못 가고 불편한데, 100원 택시가 있어 진짜 숨통이 트인다니까.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW074",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 접근성"
+      ],
+      "after_keywords": [
+        "이동 불편"
+      ],
+      "before_opinion": "내가 60대고 동면에 사니 버스가 자주 다니지 않아 100원 택시가 꽤 도움이 될 것 같아, 다만 이용권 관리나 택시 배차가 잘 되면 좋겠네.",
+      "after_opinion": "동면에 살면서 자차도 있지만 버스가 적어 항상 불편했는데, 100원 효도택시가 병원이나 시장 갈 때 큰 도움이 될 것 같아 기대가 큽니다.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW075",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "읍내에 살고 차도 있으니 100원 택시는 누군가에겐 좋겠지만 내겐 크게 도움 안 돼, 그래도 필요한 이들이 쓰면 다행이지.",
+      "after_opinion": "화순읍에 살면서 차도 있고, 대중교통도 꽤 괜찮게 다니니 100원 택시 같은 건 딱히 쓸 일이 별로 없네, 그래도 오지분들한텐 도움이 될 거라 생각은 해.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW076",
+      "before_score": 4,
+      "after_score": 5,
+      "delta": 1,
+      "before_keywords": [
+        "이동편의"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "도암면 산골에 살면서 버스도 적고 택시도 막 부르기 어려운데, 100원 효도택시가 있어 병원이나 읍내 갈 때 큰 힘이 될 것 같아요.",
+      "after_opinion": "70넘은 나같이 산불 감시원 하면서 버스도 희귀한 면 산골에 사는 사람한테 100원 택시는 진짜 구세주라, 병원도 장도 그거 없인 못 가겠어.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW077",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "무릎이 아픈 나이인데도 먼 데 버스 타러 갈 생각만 해도 힘들었는데, 100원 효도택시가 있으니 병원도 시장도 쉽게 다닐 수 있어서 정말 큰 도움이 될 것 같아.",
+      "after_opinion": "내가 사는 사평면 오지에 자차도 없고 무릎도 아픈데, 100원 택시가 있어 병원도 잘 다닐 수 있어 정말 살겠다.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW078",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 읍내에 살면서 자가용도 있고 버스도 가끔 이용하는데, 100원 택시는 오지마을 어르신들께 더 도움이 될 것 같아 내겐 큰 변화는 없네.",
+      "after_opinion": "내가 살고 있는 읍내라 버스도 있고 택시도 쓸 수 있는데, 그래도 병원이나 시장 갈 때 100원 택시가 있으면 가끔은 도움이 되겠구먼.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW079",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "이 나이에 혼자 사는데 병원도 가야하고 시장도 다녀야 하는데, 100원 택시는 정말 내 발이 되어 주는 셈이지, 이거 없으면 어디 가기도 막막하니 참 고마운 정책이여.",
+      "after_opinion": "이양면에 홀로 사는 91살 할매라 교통편 없으면 병원 가기도 쉽지 않은데, 100원 효도택시 제대로 잘 운영하면 내 삶이 훨씬 나아질 거라 믿어.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW080",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용"
+      ],
+      "after_keywords": [
+        "대중교통 이용"
+      ],
+      "before_opinion": "화순읍에 살면서 버스도 꽤 다니고, 아직 자가용 없이도 다니는 데 큰 불편은 없지만, 고령이라 100원 택시 같은 게 있으면 좋긴 하겠어요.",
+      "after_opinion": "나는 화순읍에서 자차도 있고 버스도 가끔 이용하는데, 이 100원 택시 정책은 우리 읍 사람들보다는 오지 마을 어르신들에게 더 맞는 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW081",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "아니, 나이도 많고 혼자 살다 보니 병원 가는 길도 쉽지 않았는데, 100원 효도택시가 생기니 이서면 같은 오지마을에 사는 우리 같은 사람들한테는 정말 큰 도움이 되지요!",
+      "after_opinion": "나이도 많고 혼자 사는디 병원도 잘 가야하고 버스도 별로 없으니 100원 택시가 딱 내 인생에 도움 되는 고마운 정책이라 생각혀.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW082",
+      "before_score": 2,
+      "after_score": 3,
+      "delta": 1,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 화순 읍내 살면서 자차도 있고, 혼자서도 다니는 데 큰 불편 없으니 이 효도택시는 고령 오지 주민들에겐 좋겠지만 내겐 별로 와 닿지 않네.",
+      "after_opinion": "나는 화순 읍내에서 차 타고 자유롭게 다니는데, 100원 택시 같은 건 교통 불편한 면 지역 어르신들에겐 도움 되겠지만 나한텐 딱히 와 닿지 않는 이야기야.",
+      "before_stance": "조건부 반대",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW083",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "교통접근성"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "93살 먹은 나도 이 100원 택시 덕분에 병원도 가고 장도 보러 갈 수 있어, 춘양면 같은 데는 버스가 잘 안 다니니 이건 큰 도움이여.",
+      "after_opinion": "93년 산 까마득한 노인이지만, 춘양면 산골에 살면서 이 100원 택시 덕에 병원도 가고 장도 보는데 참 고마워, 배차 좀 더 잘 맞추면 참 좋겠어.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW084",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통이용습관"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 화순읍에 살고 차도 있으니 택시나 버스 잘 쓰진 않는데, 이 정책이 농촌 오지 어르신들에겐 꽤 도움이 될 것 같아 마음으로는 응원하지.",
+      "after_opinion": "화순읍에 살다 보니 대중교통이 꽤 있고, 혼자서 청소 일도 다니는데 크게 불편한 건 없어도, 그래도 병원이나 시장 갈 때 이런 효도택시는 가끔 필요할 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW085",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "내가 읍내에 살면서 자차도 있으니 100원 택시 같은 건 그리 절실하지는 않지만, 그래도 이런 정책이 교통 힘든 분들한테 도움 되면 좋겠네.",
+      "after_opinion": "내가 화순읍 아파트 사는데 자차도 있고 걸어 다니기도 해, 100원 택시는 오지 어르신들엔 좋겠지만 나는 크게 필요하지 않네.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW086",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "대중교통 접근성"
+      ],
+      "before_opinion": "나는 화순읍에 살면서 혼자 다니니 택시나 버스 잘 안 타는데, 그래도 이 정책이 오지 어르신들한텐 쓸모 있겠다 싶어.",
+      "after_opinion": "내가 화순읍에서 살아서 대중교통이 완전히 불편한 편은 아닌데, 그래도 이런 100원 택시 같은 게 있으면 가끔 아플 때나 외출할 때 조금은 도움되겠구먼.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW087",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "농촌 이동편의"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "걸음은 좀 느려도 혼자 경로당 다니고 집안일 하는데 쓰는 택시가 있으면 동네 오지라 걱정 덜고 병원 가기도 편하겠다 싶어요.",
+      "after_opinion": "이 나이에 도곡면에서 자차 없이 다니기 힘든데, 100원 효도택시가 있어 병원이나 시장 갈 때 걱정 덜어줘서 고마워요.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW088",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "교통접근성"
+      ],
+      "after_keywords": [
+        "교통편의"
+      ],
+      "before_opinion": "나는 능주면에 사는 73세 할매라 100원 택시에 꽤 도움 되더라, 병원도 가기 편하고 버스 정류장까지 걸어가기 힘들었는데 이 정책이 쏠쏠하네.",
+      "after_opinion": "능주면에 살면서 몸이 무겁진 않아도 버스 시간도 짧고 자차 없으면 병원 가기 힘든데, 100원 택시가 꼭 필요하니 살짝 걱정도 되지만 참 고마운 정책이라 생각해.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW089",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "교통접근성"
+      ],
+      "after_keywords": [
+        "이동편의"
+      ],
+      "before_opinion": "나이도 있고 면에 사니까 100원 택시가 있으면 병원 가고 시장 보는 데 좀 수월하겠구먼, 배차 잘 됐으면 좋겠네.",
+      "after_opinion": "나는 도곡면에서 혼자 사는데 버스가 자주 다니진 않아도 100원 효도택시가 있으니까 병원이나 시장 갈 때 큰 도움이 되는 편이야, 다만 배차가 좀 더 잘 맞았으면 좋겠네.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW090",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "나이도 있고 걸음도 느린데, 100원 택시 덕분에 병원도 가고 전통시장도 가기 훨씬 수월해져서 정말 고마운 정책이네.",
+      "after_opinion": "나이가 많고 동면에 사니 이 100원 택시가 없으면 병원 가기도 장 보기도 정말 힘들었는데, 이거 하나로 얼마나 살림살이가 편해지는지 모른다요.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW091",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "나는 읍내에서 자차로 자유롭게 다녀서 이런 100원 택시는 잘 안 쓰지만, 고령 어르신들에겐 분명 도움이 될 거라 생각해.",
+      "after_opinion": "난 화순읍 아파트 살고 자차도 있어 평소 이동 편한데, 그래도 어르신들 교통편 좋아지면 좋겠더라구요.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW092",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "대중교통 이용"
+      ],
+      "after_keywords": [
+        "버스 연결성"
+      ],
+      "before_opinion": "내가 화순읍에서 자차로 다니는 데 큰 불편은 없지만, 이런 100원 택시가 면 지역 어르신들한테는 분명 도움이 될 거라 생각하네.",
+      "after_opinion": "화순읍에 사니 버스가 있어 크게 불편하지는 않은데, 나이도 있고 거동이 불편한 이웃들에겐 이런 100원 택시가 꽤 도움이 되겠다 싶네.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW093",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+      "after_opinion": "동복면에 살면서 나이도 있고 차도 없으니 병원 가고 장 보러 다닐 때 100원 효도택시는 진짜 큰 도움이 될 것 같구만, 이런 정책은 우리같이 움직임 불편한 사람들한테 딱이여.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW094",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "내 나이도 있고 동면 같은 면 지역 사니 100원 효도택시가 병원이나 시장 갈 때 큰 보탬이 되지, 요즘 버스 시간도 애매하고 택시가 부담됐는데 이거 딱이다.",
+      "after_opinion": "나 같은 나이 칠십에 대중교통이 없으면 병원 가기도 어려운데, 이 100원 효도택시처럼 내 사정을 알아서 다가오는 교통복지가 정말 고맙다요.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW095",
+      "before_score": 4,
+      "after_score": 4,
+      "delta": 0,
+      "before_keywords": [
+        "농촌 교통편의"
+      ],
+      "after_keywords": [
+        "대기시간"
+      ],
+      "before_opinion": "나이도 있고 대중교통이 많이 불편한 건 아닌데, 면에 살다 보니 100원 택시 같은 거 있으면 읍내 병원이나 시장 갈 때 꽤 도움이 될 겁니다.",
+      "after_opinion": "능주면 오지 마을에 살면서 버스 시간이 한정돼서 병원 가기가 쉽지 않았는데, 100원 택시가 있으면 한결 편할 것 같아. 다만, 대기시간과 배차가 좀 더 잘 맞으면 좋겠네.",
+      "before_stance": "조건부 찬성",
+      "after_stance": "조건부 찬성"
+    },
+    {
+      "id": "HW096",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "내가 살고 있는 화순읍은 버스 노선도 있고 이동에 큰 불편은 없어서 100원 효도택시 같은 건 크게 와닿지 않지만, 고령 어르신들한테는 도움이 되겠지요.",
+      "after_opinion": "화순읍에 살고 자차도 있으니 대중교통 필요성은 크지 않지만, 고령자용 100원 택시가 오지 주민에겐 꽤 도움이 될 것 같아.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW097",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "내가 나이가 많고 차도 없으니 이 100원 택시가 병원도 가고 장도 보는 데 딱 필요한 구실이 되겠구먼.",
+      "after_opinion": "나이 많고 몸도 불편한데, 100원 효도택시 덕에 병원가고 장보는 게 훨씬 편해졌네, 이거 안 하면 큰일 날 뻔했어.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW098",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동권"
+      ],
+      "before_opinion": "나 같은 고령에 면 지역 사는 사람한테는 100원 효도택시가 병원 갈 때 큰 힘이 되고, 걷기 힘든 내 발에 딱 맞는 교통수단이라 너무 고마워.",
+      "after_opinion": "내 나이 84에 농사도 멈춘 지 오래고, 자차도 없는 우리 같은 사람에겐 이 100원 효도택시가 한 줌 희망이요, 병원 가는 길이 많이 편해졌소.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    },
+    {
+      "id": "HW099",
+      "before_score": 3,
+      "after_score": 3,
+      "delta": 0,
+      "before_keywords": [
+        "이동 자유"
+      ],
+      "after_keywords": [
+        "이동 자유"
+      ],
+      "before_opinion": "난 화순읍에 아파트 살고 차도 있어서 이 100원 효도택시는 솔직히 별로 안 쓸 것 같아, 그래도 고령인 우리 주변 분들한테는 쓸모 있겠지.",
+      "after_opinion": "나는 산불 감시원이라 움직임이 많은 편이고 읍내라 버스도 꽤 다녀서 100원 택시는 다른 데 도움이 많이 될 거야, 나로선 그리 큰 변화는 못 느끼겠네.",
+      "before_stance": "중립",
+      "after_stance": "중립"
+    },
+    {
+      "id": "HW100",
+      "before_score": 5,
+      "after_score": 5,
+      "delta": 0,
+      "before_keywords": [
+        "이동권"
+      ],
+      "after_keywords": [
+        "이동취약성"
+      ],
+      "before_opinion": "나이도 꽤 많고 버스도 자주 없으니 100원 효도택시가 병원·시장 갈 때 큰 도움이 되고 진짜 고마워.",
+      "after_opinion": "이 나이에 차도 없고 버스도 잘 안 다니니 100원 효도택시가 병원 가고 시장 보는 데 큰 도움이 될 거라 생각하네.",
+      "before_stance": "찬성",
+      "after_stance": "찬성"
+    }
+  ]
+}

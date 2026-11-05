@@ -1,0 +1,203 @@
+﻿[
+  {
+    "cluster_id": 0,
+    "cluster_name": "군집 0",
+    "is_noise": false,
+    "size": 25,
+    "size_ratio": 0.25,
+    "avg_score": 4.4,
+    "score_distribution": {
+      "4": 15,
+      "5": 10
+    },
+    "top_keywords": [
+      [
+        "이동권",
+        10
+      ],
+      [
+        "대중교통 접근성",
+        5
+      ],
+      [
+        "교통접근성",
+        5
+      ],
+      [
+        "이동불편",
+        1
+      ],
+      [
+        "농촌교통",
+        1
+      ]
+    ],
+    "top_regions": [
+      [
+        "동면",
+        4
+      ],
+      [
+        "춘양면",
+        3
+      ],
+      [
+        "이양면",
+        3
+      ],
+      [
+        "사평면",
+        3
+      ],
+      [
+        "도곡면",
+        3
+      ]
+    ],
+    "age_groups": [
+      [
+        "70대이상",
+        15
+      ],
+      [
+        "50-60대",
+        10
+      ]
+    ],
+    "normalized_keyword_entropy": 0.7954379046216115,
+    "radius_in_umap_space": 1.325157,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_persona_id": "HW093",
+    "representative_medoid_distance": 0.356231,
+    "representative_opinion": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다."
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "군집 1",
+    "is_noise": false,
+    "size": 8,
+    "size_ratio": 0.08,
+    "avg_score": 3.0,
+    "score_distribution": {
+      "3": 8
+    },
+    "top_keywords": [
+      [
+        "대중교통 이용",
+        4
+      ],
+      [
+        "대중교통 이용 빈도",
+        2
+      ],
+      [
+        "대중교통 의존도",
+        1
+      ],
+      [
+        "대중교통이용습관",
+        1
+      ]
+    ],
+    "top_regions": [
+      [
+        "화순읍",
+        8
+      ]
+    ],
+    "age_groups": [
+      [
+        "50-60대",
+        5
+      ],
+      [
+        "70대이상",
+        3
+      ]
+    ],
+    "normalized_keyword_entropy": 0.875,
+    "radius_in_umap_space": 0.304776,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_persona_id": "HW065",
+    "representative_medoid_distance": 0.207798,
+    "representative_opinion": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아."
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "군집 2",
+    "is_noise": false,
+    "size": 67,
+    "size_ratio": 0.67,
+    "avg_score": 2.238806,
+    "score_distribution": {
+      "1": 2,
+      "2": 48,
+      "3": 16,
+      "4": 1
+    },
+    "top_keywords": [
+      [
+        "이동 자유",
+        63
+      ],
+      [
+        "정책 우선순위",
+        2
+      ],
+      [
+        "이동 제약",
+        1
+      ],
+      [
+        "정책 대상 부적합",
+        1
+      ]
+    ],
+    "top_regions": [
+      [
+        "화순읍",
+        56
+      ],
+      [
+        "도곡면",
+        2
+      ],
+      [
+        "능주면",
+        2
+      ],
+      [
+        "백아면",
+        1
+      ],
+      [
+        "청풍면",
+        1
+      ]
+    ],
+    "age_groups": [
+      [
+        "50-60대",
+        26
+      ],
+      [
+        "30-40대",
+        20
+      ],
+      [
+        "10-20대",
+        14
+      ],
+      [
+        "70대이상",
+        7
+      ]
+    ],
+    "normalized_keyword_entropy": 0.20790552671773144,
+    "radius_in_umap_space": 1.744577,
+    "representative_selection_method": "medoid_in_original_feature_space",
+    "representative_persona_id": "HW023",
+    "representative_medoid_distance": 0.258633,
+    "representative_opinion": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해."
+  }
+]

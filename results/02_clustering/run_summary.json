@@ -1,0 +1,103 @@
+﻿{
+  "input_file": "/home/piai/다운로드/POBICA/hwasun_persona_policy_responses.json",
+  "algorithm": "umap+hdbscan",
+  "selection_criterion": "maximize DBCV among valid candidates with cluster_count 3~5",
+  "feature_mode": "weighted_blocks",
+  "feature_metadata": {
+    "feature_mode": "weighted_blocks",
+    "keyword_backend": "openai_embedding",
+    "opinion_backend": "openai_embedding",
+    "openai_embedding_model": "text-embedding-3-small",
+    "weights": {
+      "keyword": 0.2,
+      "opinion": 0.65,
+      "score": 0.05,
+      "persona": 0.1
+    },
+    "block_dimensions": {
+      "keyword": 1536,
+      "opinion": 1536,
+      "score": 1,
+      "persona": 18
+    },
+    "block_integration": "sqrt(weight) scaling + horizontal concatenation",
+    "persona_policy_fit_missing_value": 0.5
+  },
+  "grid": {
+    "umap_neighbors_grid": [
+      8,
+      10,
+      12,
+      15,
+      20
+    ],
+    "umap_components_grid": [
+      5,
+      8,
+      10
+    ],
+    "umap_min_dist": 0.0,
+    "hdbscan_min_cluster_size_grid": [
+      5,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "hdbscan_min_samples_grid": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "searched_combinations": 600,
+    "valid_candidates": 600,
+    "cluster_count_constrained_candidates": 121,
+    "target_cluster_min": 3,
+    "target_cluster_max": 5,
+    "cached_umap_runs": 15
+  },
+  "selected_hyperparameters": {
+    "umap_n_neighbors": 8,
+    "umap_n_components": 10,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_min_cluster_size": 5,
+    "hdbscan_min_samples": 1,
+    "hdbscan_metric": "euclidean",
+    "hdbscan_cluster_selection_method": "eom"
+  },
+  "selected_metrics": {
+    "rank": 1,
+    "selected": true,
+    "feature_mode": "weighted_blocks",
+    "umap_n_neighbors": 8,
+    "umap_n_components": 10,
+    "umap_min_dist": 0.0,
+    "hdbscan_min_cluster_size": 5,
+    "hdbscan_min_samples": 1,
+    "cluster_count": 3,
+    "noise_ratio": 0.0,
+    "min_cluster_member_count": 8,
+    "max_cluster_member_count": 67,
+    "allocation_entropy": 0.743621621450393,
+    "mean_membership_probability": 0.999904961634627,
+    "conditional_entropy_keyword": 1.0151718342679685,
+    "conditional_entropy_stance": 0.9662354058742197,
+    "dbcv": 0.8719838060973016,
+    "silhouette": 0.7585916945586431,
+    "davies_bouldin": 0.23409886770102264,
+    "valid": true
+  },
+  "representative_selection": "medoid in original feature space, excluding noise",
+  "outputs": {
+    "hyperparameter_search_results": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/hyperparameter_search_results.csv",
+    "clustered_responses": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/clustered_responses.csv",
+    "cluster_summary": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/cluster_summary.json",
+    "representative_agents": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/representative_agents.json"
+  }
+}

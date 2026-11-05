@@ -1,0 +1,9 @@
+openai
+numpy
+pandas
+scipy
+scikit-learn
+umap-learn
+hdbscan
+requests
+beautifulsoup4

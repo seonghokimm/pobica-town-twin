@@ -1,0 +1,982 @@
+﻿{
+  "created_at": "2026-07-12T04:39:30",
+  "input_files": {
+    "responses": "/home/piai/다운로드/POBICA/hwasun_persona_policy_responses.json",
+    "representatives": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/representative_agents.json",
+    "cluster_dir": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550",
+    "rag_db": "/home/piai/다운로드/POBICA/town_twin_full_v3_policy_stage.sqlite3"
+  },
+  "policy": {
+    "category": "transport",
+    "category_label": "교통",
+    "policy_name": "화순군 100원 효도택시 운영",
+    "main_details": "정책연도: 2014년\n정책유형:\n농촌 교통복지 정책 / 교통취약지역 이동권 보장 정책 / 수요응답형 교통수단 운영 정책\n시행시기:\n2014년 12월부터 시행\n정책 배경:\n화순군은 농어촌버스가 운행되지 않는 오지마을 주민들의 교통 불편을 해소하기 위해 100원 효도택시를 운영한다. 농어촌버스는 운행 노선과 운행 횟수에 한계가 있어 일부 마을 주민들은 버스정류장까지 이동하는 데에도 어려움을 겪고 있다. 특히 인구 고령화로 인해 병원, 면사무소, 전통시장 등 생활 필수시설로 이동해야 하는 고령 주민의 교통수요가 증가하고 있다. 이에 화순군은 필요한 시간에 탄력적으로 이용할 수 있는 수요응답형 택시를 지원하여 교통사각지대를 줄이고자 한다.\n정책 목적:\n1. 농어촌버스 미운행 지역 주민의 교통편의 증진\n2. 교통접근성이 취약한 고령 주민의 이동권 확보\n3. 대중교통 사각지대 해소\n4. 읍·면 소재지 및 전통시장 접근성 향상\n5. 지역 택시 운행 수요 확보\n6. 읍·면 소재지를 중심으로 한 지역경제 활성화\n운영대상 지역:\n농어촌버스가 운행되지 않는 마을 중 버스 승강장으로부터 1km 이상 떨어진 화순군 관내 10개 읍·면 37개 마을을 대상으로 한다.\n이용대상자:\n운영대상 마을에 주민등록을 두고 실제 거주하는 만 65세 이상 주민 534명을 대상으로 한다.\n대상 제외:\n운영대상 마을에 거주하더라도 만 65세 미만 주민은 초기 이용대상에 포함되지 않는다. 버스 승강장과의 거리 기준을 충족하지 못하는 마을 주민도 이용대상에서 제외된다.\n사업예산:\n총 3,900만 원\n도비 900만 원\n군비 3,000만 원\n운영방식:\n100원 효도택시는 정해진 시간표와 노선에 따라 운행하는 버스가 아니라, 이용자가 필요한 시간과 장소에서 요청하면 운행하는 비정기적 수요응답형 택시 방식으로 운영한다. 해당 읍·면에 택시가 있는 경우 해당 읍·면 택시를 이용하는 것을 원칙으로 하며, 택시가 없는 읍·면은 가까운 인근 읍·면의 택시를 이용할 수 있다.\n참여 택시:\n화순군은 관내 개인택시 및 일반택시 업체와 협약을 체결하여 효도택시를 운영한다. 초기 운행에는 관내 운행 중인 택시 136대가 참여한다.\n이용권 지급방식:\n화순군은 대상 주민에게 월 단위로 종이 형태의 100원 효도택시 이용권을 지급한다. 이용권에는 이용 가능 구간과 사용기한이 표시된다. 이용권은 지급용과 보관용을 함께 제작하여 관리하며, 마을대표자가 군에서 발행한 이용권을 대상 주민에게 교부한다.\n이용권 지급 매수:\n1. 읍 지역 또는 면 지역 주민이 거주지 읍·면 소재지까지 이동하는 경우 월 2매를 지급한다.\n2. 면 지역 주민이 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 월 1매를 지급한다.\n이용권 유효기간:\n이용권의 유효기간은 1개월이다. 사용기한이 지난 이용권은 사용할 수 없으며, 다음 달로 이월되지 않는다.\n이용요금:\n1. 읍 지역 주민이 해당 마을회관에서 가장 가까운 버스정류장, 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 택시 1대당 100원을 부담한다.\n2. 면 지역 주민이 해당 마을회관에서 가장 가까운 버스정류장 또는 거주지역 면사무소까지 이동하는 경우 택시 1대당 100원을 부담한다.\n3. 면 지역 주민이 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 1인당 농어촌버스 기본요금 수준의 금액을 부담한다.\n4. 이용자가 부담하는 금액을 제외한 실제 택시요금 차액은 화순군이 지원한다.\n지불방식:\n효도택시 탑승자는 택시운전자에게 종이 이용권과 정해진 본인부담금을 함께 지불한다. 가까운 버스정류장 또는 읍·면 소재지 이동은 택시 1대당 100원을 부담하고, 면 지역 주민이 화순읍 중심지로 이동하는 경우에는 1인당 농어촌버스 기본요금 수준의 금액을 부담한다.\n운행구간:\n1. 읍 지역 거주 주민\n해당 마을회관에서 가장 가까운 버스정류장까지\n해당 마을회관에서 화순군청까지\n해당 마을회관에서 화순읍사무소까지\n해당 마을회관에서 화순읍 전통시장까지\n2. 면 지역 거주 주민\n해당 마을회관에서 가장 가까운 버스정류장까지\n해당 마을회관에서 거주지역 면사무소까지\n해당 마을회관에서 화순군청까지\n해당 마을회관에서 화순읍사무소까지\n해당 마을회관에서 화순읍 전통시장까지\n정산방식:\n택시운전자는 이용자로부터 받은 종이 이용권과 본인부담금을 확인하고 운행한다. 택시사업자는 운행 후 회수한 이용권과 운행 내역을 근거로 실제 운행요금과 이용자 부담금의 차액을 화순군에 청구한다. 화순군은 확인 절차를 거쳐 협약을 체결한 택시사업자에게 차액을 지원한다.\n관리방식:\n1. 마을대표자는 이용권을 대상 주민에게 배부하고 이용권 관리에 협조한다.\n2. 각 마을에는 효도택시 운영위원회를 설치할 수 있다.\n3. 별도 운영위원회 구성이 어려운 경우 마을 개발위원회가 기능을 대행할 수 있다.\n4. 이용권은 타인에게 양도하거나 양수할 수 없다.\n5. 부정사용이 확인되면 이용권 지급을 제한할 수 있다.\n6. 마을, 택시사업자, 택시운전자가 이용권 부정사용에 관여한 경우 지원 비용을 지급하지 않거나 이미 지급된 비용을 회수할 수 있다.\n주요 이용 목적:\n1. 병원 방문\n2. 면사무소 및 행정기관 방문\n3. 전통시장 이용\n4. 가까운 버스정류장 이동\n5. 읍·면 소재지 생활 편의시설 이용\n관련 이해관계자:\n1. 농어촌버스 미운행 마을의 만 65세 이상 고령 주민\n2. 병원 방문이 잦은 고령 주민\n3. 전통시장과 읍·면 소재지를 자주 이용하는 주민\n4. 대상 마을에 거주하지만 65세 미만인 주민\n5. 버스 승강장 거리 기준 때문에 제외된 인근 마을 주민\n6. 자가용을 보유한 주민\n7. 택시운전자\n8. 택시사업자\n9. 마을대표자\n10. 화순군 행정 담당자\n11. 읍·면 소재지 및 전통시장 상인\n12. 일반 군민 및 납세자\n기대효과:\n1. 대중교통 미운행 소외지역 주민의 교통편의 증진\n2. 고령 주민의 병원, 행정기관, 전통시장 이동 부담 완화\n3. 인구 고령화에 따른 농촌지역 사회복지 향상\n4. 읍·면 소재지와 전통시장 방문 증가\n5. 지역 택시업계 운행 수요 확보\n6. 농촌형 교통복지 모델 구축",
+    "target_audience": "농어촌버스가 운행되지 않는 화순군 오지마을 주민, 버스 승강장에서 1km 이상 떨어진 마을의 만 65세 이상 고령 주민, 병원·면사무소·전통시장 이동이 필요한 교통취약 주민, 자차가 없거나 대중교통 의존도가 높은 고령 주민, 읍·면 소재지 생활 편의시설을 이용해야 하는 주민",
+    "search_keywords": [
+      "교통",
+      "100원",
+      "효도택시",
+      "농어촌버스",
+      "교통복지",
+      "이동권",
+      "교통취약지역",
+      "수요응답형",
+      "택시",
+      "오지마을",
+      "고령",
+      "주민",
+      "병원",
+      "접근성",
+      "전통시장",
+      "버스정류장"
+    ]
+  },
+  "policy_text": "화순군 100원 효도택시 운영 / 정책연도: 2014년 정책유형: 농촌 교통복지 정책 / 교통취약지역 이동권 보장 정책 / 수요응답형 교통수단 운영 정책 시행시기: 2014년 12월부터 시행 정책 배경: 화순군은 농어촌버스가 운행되지 않는 오지마을 주민들의 교통 불편을 해소하기 위해 100원 효도택시를 운영한다. 농어촌버스는 운행 노선과 운행 횟수에 한계가 있어 일부 마을 주민들은 버스정류장까지 이동하는 데에도 어려움을 겪고 있다. 특히 인구 고령화로 인해 병원, 면사무소, 전통시장 등 생활 필수시설로 이동해야 하는 고령 주민의 교통수요가 증가하고 있다. 이에 화순군은 필요한 시간에 탄력적으로 이용할 수 있는 수요응답형 택시를 지원하여 교통사각지대를 줄이고자 한다. 정책 목적: 1. 농어촌버스 미운행 지역 주민의 교통편의 증진 2. 교통접근성이 취약한 고령 주민의 이동권 확보 3. 대중교통 사각지대 해소 4. 읍·면 소재지 및 전통시장 접근성 향상 5. 지역 택시 운행 수요 확보 6. 읍·면 소재지를 중심으로 한 지역경제 활성화 운영대상 지역: 농어촌버스가 운행되지 않는 마을 중 버스 승강장으로부터 1km 이상 떨어진 화순군 관내 10개 읍·면 37개 마을을 대상으로 한다. 이용대상자: 운영대상 마을에 주민등록을 두고 실제 거주하는 만 65세 이상 주민 534명을 대상으로 한다. 대상 제외: 운영대상 마을에 거주하더라도 만 65세 미만 주민은 초기 이용대상에 포함되지 않는다. 버스 승강장과의 거리 기준을 충족하지 못하는 마을 주민도 이용대상에서 제외된다. 사업예산: 총 3,900만 원 도비 900만 원 군비 3,000만 원 운영방식: 100원 효도택시는 정해진 시간표와 노선에 따라 운행하는 버스가 아니라, 이용자가 필요한 시간과 장소에서 요청하면 운행하는 비정기적 수요응답형 택시 방식으로 운영한다. 해당 읍·면에 택시가 있는 경우 해당 읍·면 택시를 이용하는 것을 원칙으로 하며, 택시가 없는 읍·면은 가까운 인근 읍·면의 택시를 이용할 수 있다. 참여 택시: 화순군은 관내 개인택시 및 일반택시 업체와 협약을 체결하여 효도택시를 운영한다. 초기 운행에는 관내 운행 중인 택시 136대가 참여한다. 이용권 지급방식: 화순군은 대상 주민에게 월 단위로 종이 형태의 100원 효도택시 이용권을 지급한다. 이용권에는 이용 가능 구간과 사용기한이 표시된다. 이용권은 지급용과 보관용을 함께 제작하여 관리하며, 마을대표자가 군에서 발행한 이용권을 대상 주민에게 교부한다. 이용권 지급 매수: 1. 읍 지역 또는 면 지역 주민이 거주지 읍·면 소재지까지 이동하는 경우 월 2매를 지급한다. 2. 면 지역 주민이 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 월 1매를 지급한다. 이용권 유효기간: 이용권의 유효기간은 1개월이다. 사용기한이 지난 이용권은 사용할 수 없으며, 다음 달로 이월되지 않는다. 이용요금: 1. 읍 지역 주민이 해당 마을회관에서 가장 가까운 버스정류장, 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 택시 1대당 100원을 부담한다. 2. 면 지역 주민이 해당 마을회관에서 가장 가까운 버스정류장 또는 거주지역 면사무소까지 이동하는 경우 택시 1대당 100원을 부담한다. 3. 면 지역 주민이 화순군청, 화순읍사무소, 화순읍 전통시장까지 이동하는 경우 1인당 농어촌버스 기본요금 수준의 금액을 부담한다. 4. 이용자가 부담하는 금액을 제외한 실제 택시요금 차액은 화순군이 지원한다. 지불방식: 효도택시 탑승자는 택시운전자에게 종이 이용권과 정해진 본인부담금을 함께 지불한다. 가까운 버스정류장 또는 읍·면 소재지 이동은 택시 1대당 100원을 부담하고, 면 지역 주민이 화순읍 중심지로 이동하는 경우에는 1인당 농어촌버스 기본요금 수준의 금액을 부담한다. 운행구간: 1. 읍 지역 거주 주민 해당 마을회관에서 가장 가까운 버스정류장까지 해당 마을회관에서 화순군청까지 해당 마을회관에서 화순읍사무소까지 해당 마을회관에서 화순읍 전통시장까지 2. 면 지역 거주 주민 해당 마을회관에서 가장 가까운 버스정류장까지 해당 마을회관에서 거주지역 면사무소까지 해당 마을회관에서 화순군청까지 해당 마을회관에서 화순읍사무소까지 해당 마을회관에서 화순읍 전통시장까지 정산방식: 택시운전자는 이용자로부터 받은 종이 이용권과 본인부담금을 확인하고 운행한다. 택시사업자는 운행 후 회수한 이용권과 운행 내역을 근거로 실제 운행요금과 이용자 부담금의 차액을 화순군에 청구한다. 화순군은 확인 절차를 거쳐 협약을 체결한 택시사업자에게 차액을 지원한다. 관리방식: 1. 마을대표자는 이용권을 대상 주민에게 배부하고 이용권 관리에 협조한다. 2. 각 마을에는 효도택시 운영위원회를 설치할 수 있다. 3. 별도 운영위원회 구성이 어려운 경우 마을 개발위원회가 기능을 대행할 수 있다. 4. 이용권은 타인에게 양도하거나 양수할 수 없다. 5. 부정사용이 확인되면 이용권 지급을 제한할 수 있다. 6. 마을, 택시사업자, 택시운전자가 이용권 부정사용에 관여한 경우 지원 비용을 지급하지 않거나 이미 지급된 비용을 회수할 수 있다. 주요 이용 목적: 1. 병원 방문 2. 면사무소 및 행정기관 방문 3. 전통시장 이용 4. 가까운 버스정류장 이동 5. 읍·면 소재지 생활 편의시설 이용 관련 이해관계자: 1. 농어촌버스 미운행 마을의 만 65세 이상 고령 주민 2. 병원 방문이 잦은 고령 주민 3. 전통시장과 읍·면 소재지를 자주 이용하는 주민 4. 대상 마을에 거주하지만 65세 미만인 주민 5. 버스 승강장 거리 기준 때문에 제외된 인근 마을 주민 6. 자가용을 보유한 주민 7. 택시운전자 8. 택시사업자 9. 마을대표자 10. 화순군 행정 담당자 11. 읍·면 소재지 및 전통시장 상인 12. 일반 군민 및 납세자 기대효과: 1. 대중교통 미운행 소외지역 주민의 교통편의 증진 2. 고령 주민의 병원, 행정기관, 전통시장 이동 부담 완화 3. 인구 고령화에 따른 농촌지역 사회복지 향상 4. 읍·면 소재지와 전통시장 방문 증가 5. 지역 택시업계 운행 수요 확보 6. 농촌형 교통복지 모델 구축 / 농어촌버스가 운행되지 않는 화순군 오지마을 주민, 버스 승강장에서 1km 이상 떨어진 마을의 만 65세 이상 고령 주민, 병원·면사무소·전통시장 이동이 필요한 교통취약 주민, 자차가 없거나 대중교통 의존도가 높은 고령 주민, 읍·면 소재지 생활 편의시설을 이용해야 하는 주민 / 교통, 100원, 효도택시, 농어촌버스, 교통복지, 이동권, 교통취약지역, 수요응답형, 택시, 오지마을, 고령, 주민, 병원, 접근성, 전통시장, 버스정류장",
+  "satisfaction": {
+    "total": 100,
+    "average": 2.84,
+    "counts": {
+      "1": 2,
+      "2": 48,
+      "3": 24,
+      "4": 16,
+      "5": 10
+    },
+    "generated_ratios": {
+      "1": 2.0,
+      "2": 48.0,
+      "3": 24.0,
+      "4": 16.0,
+      "5": 10.0
+    }
+  },
+  "representatives": [
+    {
+      "persona_id": "HW093",
+      "satisfaction_score": 5.0,
+      "summary_keyword": "이동권",
+      "opinion_text": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+      "cluster_id": "",
+      "cluster_name": "",
+      "selection_reason": "",
+      "region_name_kr": "동복면",
+      "age": 75,
+      "age_group": "70대이상",
+      "sex": "남자",
+      "occupation": "건물 경비원",
+      "stance": "찬성",
+      "conflict_risk": 0.0,
+      "persona_policy_fit": null,
+      "policy_id": "화순군 100원 효도택시 운영",
+      "resource_tags": [
+        "접근성",
+        "대상적합성",
+        "교통",
+        "보건의료",
+        "지역경제"
+      ],
+      "extra": {
+        "sheet_name": "",
+        "raw_text": "{\"persona_id\": \"HW093\", \"region_name_kr\": \"동복면\", \"age\": 75, \"sex\": \"남자\", \"occupation\": \"건물 경비원\", \"satisfaction_score\": 5, \"stance\": \"찬성\", \"summary_keyword\": \"이동권\", \"opinion_text\": \"내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-동복면-001\", \"IND-동복면-002\"], \"generation_method\": \"openai_api\"}",
+        "extra": {
+          "persona_id": "HW093",
+          "region_name_kr": "동복면",
+          "age": 75,
+          "sex": "남자",
+          "occupation": "건물 경비원",
+          "satisfaction_score": 5,
+          "stance": "찬성",
+          "summary_keyword": "이동권",
+          "opinion_text": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+          "reasoning_basis": "",
+          "used_rag_ids": [
+            "BUS-동복면-001",
+            "IND-동복면-002"
+          ],
+          "generation_method": "openai_api"
+        },
+        "representative_selection_method": "medoid_in_original_feature_space",
+        "representative_medoid_distance": 0.356231,
+        "membership_probability": 1.0
+      }
+    },
+    {
+      "persona_id": "HW065",
+      "satisfaction_score": 3.0,
+      "summary_keyword": "대중교통 이용",
+      "opinion_text": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.",
+      "cluster_id": "1",
+      "cluster_name": "",
+      "selection_reason": "",
+      "region_name_kr": "화순읍",
+      "age": 67,
+      "age_group": "50-60대",
+      "sex": "남자",
+      "occupation": "무직",
+      "stance": "중립",
+      "conflict_risk": 0.0,
+      "persona_policy_fit": null,
+      "policy_id": "화순군 100원 효도택시 운영",
+      "resource_tags": [
+        "접근성",
+        "교통"
+      ],
+      "extra": {
+        "sheet_name": "",
+        "raw_text": "{\"persona_id\": \"HW065\", \"region_name_kr\": \"화순읍\", \"age\": 67, \"sex\": \"남자\", \"occupation\": \"무직\", \"satisfaction_score\": 3, \"stance\": \"중립\", \"summary_keyword\": \"대중교통 이용\", \"opinion_text\": \"나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-화순읍-001\", \"BUS-화순읍-002\"], \"generation_method\": \"openai_api\"}",
+        "extra": {
+          "persona_id": "HW065",
+          "region_name_kr": "화순읍",
+          "age": 67,
+          "sex": "남자",
+          "occupation": "무직",
+          "satisfaction_score": 3,
+          "stance": "중립",
+          "summary_keyword": "대중교통 이용",
+          "opinion_text": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아.",
+          "reasoning_basis": "",
+          "used_rag_ids": [
+            "BUS-화순읍-001",
+            "BUS-화순읍-002"
+          ],
+          "generation_method": "openai_api"
+        },
+        "representative_selection_method": "medoid_in_original_feature_space",
+        "representative_medoid_distance": 0.207798,
+        "membership_probability": 1.0
+      }
+    },
+    {
+      "persona_id": "HW023",
+      "satisfaction_score": 2.0,
+      "summary_keyword": "이동 자유",
+      "opinion_text": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.",
+      "cluster_id": "2",
+      "cluster_name": "",
+      "selection_reason": "",
+      "region_name_kr": "화순읍",
+      "age": 45,
+      "age_group": "30-40대",
+      "sex": "여자",
+      "occupation": "공공행정 사무원",
+      "stance": "조건부 반대",
+      "conflict_risk": 0.0,
+      "persona_policy_fit": null,
+      "policy_id": "화순군 100원 효도택시 운영",
+      "resource_tags": [
+        "접근성",
+        "교통"
+      ],
+      "extra": {
+        "sheet_name": "",
+        "raw_text": "{\"persona_id\": \"HW023\", \"region_name_kr\": \"화순읍\", \"age\": 45, \"sex\": \"여자\", \"occupation\": \"공공행정 사무원\", \"satisfaction_score\": 2, \"stance\": \"조건부 반대\", \"summary_keyword\": \"이동 자유\", \"opinion_text\": \"나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.\", \"reasoning_basis\": \"\", \"used_rag_ids\": [\"BUS-화순읍-001\", \"BUS-화순읍-002\"], \"generation_method\": \"openai_api\"}",
+        "extra": {
+          "persona_id": "HW023",
+          "region_name_kr": "화순읍",
+          "age": 45,
+          "sex": "여자",
+          "occupation": "공공행정 사무원",
+          "satisfaction_score": 2,
+          "stance": "조건부 반대",
+          "summary_keyword": "이동 자유",
+          "opinion_text": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해.",
+          "reasoning_basis": "",
+          "used_rag_ids": [
+            "BUS-화순읍-001",
+            "BUS-화순읍-002"
+          ],
+          "generation_method": "openai_api"
+        },
+        "representative_selection_method": "medoid_in_original_feature_space",
+        "representative_medoid_distance": 0.258633,
+        "membership_probability": 1.0
+      }
+    }
+  ],
+  "cluster_summary": [
+    {
+      "cluster_id": 0,
+      "cluster_name": "군집 0",
+      "is_noise": false,
+      "size": 25,
+      "size_ratio": 0.25,
+      "avg_score": 4.4,
+      "score_distribution": {
+        "4": 15,
+        "5": 10
+      },
+      "top_keywords": [
+        [
+          "이동권",
+          10
+        ],
+        [
+          "대중교통 접근성",
+          5
+        ],
+        [
+          "교통접근성",
+          5
+        ],
+        [
+          "이동불편",
+          1
+        ],
+        [
+          "농촌교통",
+          1
+        ]
+      ],
+      "top_regions": [
+        [
+          "동면",
+          4
+        ],
+        [
+          "춘양면",
+          3
+        ],
+        [
+          "이양면",
+          3
+        ],
+        [
+          "사평면",
+          3
+        ],
+        [
+          "도곡면",
+          3
+        ]
+      ],
+      "age_groups": [
+        [
+          "70대이상",
+          15
+        ],
+        [
+          "50-60대",
+          10
+        ]
+      ],
+      "normalized_keyword_entropy": 0.7954379046216115,
+      "radius_in_umap_space": 1.325157,
+      "representative_selection_method": "medoid_in_original_feature_space",
+      "representative_persona_id": "HW093",
+      "representative_medoid_distance": 0.356231,
+      "representative_opinion": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다."
+    },
+    {
+      "cluster_id": 1,
+      "cluster_name": "군집 1",
+      "is_noise": false,
+      "size": 8,
+      "size_ratio": 0.08,
+      "avg_score": 3.0,
+      "score_distribution": {
+        "3": 8
+      },
+      "top_keywords": [
+        [
+          "대중교통 이용",
+          4
+        ],
+        [
+          "대중교통 이용 빈도",
+          2
+        ],
+        [
+          "대중교통 의존도",
+          1
+        ],
+        [
+          "대중교통이용습관",
+          1
+        ]
+      ],
+      "top_regions": [
+        [
+          "화순읍",
+          8
+        ]
+      ],
+      "age_groups": [
+        [
+          "50-60대",
+          5
+        ],
+        [
+          "70대이상",
+          3
+        ]
+      ],
+      "normalized_keyword_entropy": 0.875,
+      "radius_in_umap_space": 0.304776,
+      "representative_selection_method": "medoid_in_original_feature_space",
+      "representative_persona_id": "HW065",
+      "representative_medoid_distance": 0.207798,
+      "representative_opinion": "나는 화순읍에 살고 자차도 있어 대중교통 불편은 없는데, 그래도 필요한 어르신들한테는 100원 효도택시가 꽤 도움이 될 것 같아."
+    },
+    {
+      "cluster_id": 2,
+      "cluster_name": "군집 2",
+      "is_noise": false,
+      "size": 67,
+      "size_ratio": 0.67,
+      "avg_score": 2.238806,
+      "score_distribution": {
+        "1": 2,
+        "2": 48,
+        "3": 16,
+        "4": 1
+      },
+      "top_keywords": [
+        [
+          "이동 자유",
+          63
+        ],
+        [
+          "정책 우선순위",
+          2
+        ],
+        [
+          "이동 제약",
+          1
+        ],
+        [
+          "정책 대상 부적합",
+          1
+        ]
+      ],
+      "top_regions": [
+        [
+          "화순읍",
+          56
+        ],
+        [
+          "도곡면",
+          2
+        ],
+        [
+          "능주면",
+          2
+        ],
+        [
+          "백아면",
+          1
+        ],
+        [
+          "청풍면",
+          1
+        ]
+      ],
+      "age_groups": [
+        [
+          "50-60대",
+          26
+        ],
+        [
+          "30-40대",
+          20
+        ],
+        [
+          "10-20대",
+          14
+        ],
+        [
+          "70대이상",
+          7
+        ]
+      ],
+      "normalized_keyword_entropy": 0.20790552671773144,
+      "radius_in_umap_space": 1.744577,
+      "representative_selection_method": "medoid_in_original_feature_space",
+      "representative_persona_id": "HW023",
+      "representative_medoid_distance": 0.258633,
+      "representative_opinion": "나는 화순읍에 살고 차도 있어서 100원 택시 같은 건 잘 이용할 일이 없는데, 그래도 교통 불편한 면 지역 어르신들한테는 꽤 도움이 될 것 같긴 해."
+    }
+  ],
+  "cluster_run_summary": {
+    "input_file": "/home/piai/다운로드/POBICA/hwasun_persona_policy_responses.json",
+    "algorithm": "umap+hdbscan",
+    "selection_criterion": "maximize DBCV among valid candidates with cluster_count 3~5",
+    "feature_mode": "weighted_blocks",
+    "feature_metadata": {
+      "feature_mode": "weighted_blocks",
+      "keyword_backend": "openai_embedding",
+      "opinion_backend": "openai_embedding",
+      "openai_embedding_model": "text-embedding-3-small",
+      "weights": {
+        "keyword": 0.2,
+        "opinion": 0.65,
+        "score": 0.05,
+        "persona": 0.1
+      },
+      "block_dimensions": {
+        "keyword": 1536,
+        "opinion": 1536,
+        "score": 1,
+        "persona": 18
+      },
+      "block_integration": "sqrt(weight) scaling + horizontal concatenation",
+      "persona_policy_fit_missing_value": 0.5
+    },
+    "grid": {
+      "umap_neighbors_grid": [
+        8,
+        10,
+        12,
+        15,
+        20
+      ],
+      "umap_components_grid": [
+        5,
+        8,
+        10
+      ],
+      "umap_min_dist": 0.0,
+      "hdbscan_min_cluster_size_grid": [
+        5,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "hdbscan_min_samples_grid": [
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "searched_combinations": 600,
+      "valid_candidates": 600,
+      "cluster_count_constrained_candidates": 121,
+      "target_cluster_min": 3,
+      "target_cluster_max": 5,
+      "cached_umap_runs": 15
+    },
+    "selected_hyperparameters": {
+      "umap_n_neighbors": 8,
+      "umap_n_components": 10,
+      "umap_min_dist": 0.0,
+      "umap_metric": "cosine",
+      "hdbscan_min_cluster_size": 5,
+      "hdbscan_min_samples": 1,
+      "hdbscan_metric": "euclidean",
+      "hdbscan_cluster_selection_method": "eom"
+    },
+    "selected_metrics": {
+      "rank": 1,
+      "selected": true,
+      "feature_mode": "weighted_blocks",
+      "umap_n_neighbors": 8,
+      "umap_n_components": 10,
+      "umap_min_dist": 0.0,
+      "hdbscan_min_cluster_size": 5,
+      "hdbscan_min_samples": 1,
+      "cluster_count": 3,
+      "noise_ratio": 0.0,
+      "min_cluster_member_count": 8,
+      "max_cluster_member_count": 67,
+      "allocation_entropy": 0.743621621450393,
+      "mean_membership_probability": 0.999904961634627,
+      "conditional_entropy_keyword": 1.0151718342679685,
+      "conditional_entropy_stance": 0.9662354058742197,
+      "dbcv": 0.8719838060973016,
+      "silhouette": 0.7585916945586431,
+      "davies_bouldin": 0.23409886770102264,
+      "valid": true
+    },
+    "representative_selection": "medoid in original feature space, excluding noise",
+    "outputs": {
+      "hyperparameter_search_results": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/hyperparameter_search_results.csv",
+      "clustered_responses": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/clustered_responses.csv",
+      "cluster_summary": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/cluster_summary.json",
+      "representative_agents": "/home/piai/다운로드/POBICA/outputs/hwasun_clustering_weighted_blocks_dbcv_20260712_003550/representative_agents.json"
+    }
+  },
+  "debate": {
+    "openings": [
+      {
+        "id": "HW093-OPN-001",
+        "발언유형": "입론",
+        "입장": "교통접근성 실질 강화 필요",
+        "만족도": 5,
+        "claim": "100원 효도택시가 없었으면 병원이나 시장에 다닐 수 없었을 만큼 교통에 큰 도움이 된다.",
+        "ground": {
+          "내용": "토론 기록상 확인되지 않음",
+          "인용_fact_id": "토론 기록상 확인되지 않음"
+        },
+        "warrant": "나처럼 차가 없고 나이가 많은 사람이 교통 취약지역에 살면, 필수 시설로 이동할 방안이 없을 때 건강이나 생활에 심각한 어려움을 겪는다.",
+        "핵심근거": "내 나이도 꽉 찼고 차도 없으니 100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께, 이거 없었으면 움직이기 그라케 힘들었을끼다.",
+        "_verification": {
+          "stage": "opening",
+          "passed": false,
+          "failures": [
+            "invalid_fact_id:토론 기록상 확인되지 않음",
+            "number_mismatch:001,100,100"
+          ],
+          "cited_fact_ids": [
+            "토론 기록상 확인되지 않음"
+          ],
+          "numbers": [
+            "001",
+            "100",
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": true,
+        "_regenerated": true
+      },
+      {
+        "id": "HW065-OP1",
+        "발언유형": "입론",
+        "입장": "교통취약 어르신 대상 접근성 강화 기대",
+        "만족도": 3,
+        "claim": "나는 자가용이 있어 직접적인 불편은 없지만, 교통이 불편한 어르신들에게는 100원 효도택시가 큰 도움이 될 수 있을 것 같다.",
+        "ground": {
+          "내용": "토론 기록상 확인되지 않음",
+          "인용_fact_id": "토론 기록상 확인되지 않음"
+        },
+        "warrant": "내가 직접 이용하지 않더라도, 교통취약 지역 어르신들의 이동권 확보에 실질적 도움이 되는 정책이 필요하다고 생각한다.",
+        "핵심근거": "교통취약 어르신의 이동권 보장이라는 정책 목적과 부합",
+        "_verification": {
+          "stage": "opening",
+          "passed": false,
+          "failures": [
+            "invalid_fact_id:토론 기록상 확인되지 않음",
+            "number_mismatch:100"
+          ],
+          "cited_fact_ids": [
+            "토론 기록상 확인되지 않음"
+          ],
+          "numbers": [
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": true,
+        "_regenerated": true
+      },
+      {
+        "id": "HW023-OPN-001",
+        "발언유형": "입론",
+        "입장": "도움 대상 제한 아쉬움",
+        "만족도": 2,
+        "claim": "저처럼 차가 있는 읍내 사람한텐 크게 와닿지 않지만, 면 지역 어르신들만 쓸 수 있는 정책이라 조금 아쉽기도 합니다.",
+        "ground": {
+          "내용": "토론 기록상 확인되지 않음",
+          "인용_fact_id": "토론 기록상 확인되지 않음"
+        },
+        "warrant": "운영 대상이 면 지역 및 만 65세 이상 주민으로 한정돼 있어, 실제로 정책 체감이나 수혜 대상이 제한적일 수 있습니다.",
+        "핵심근거": "읍내 거주, 자가용 보유자는 정책 효과를 직접적으로 경험하기 어렵고, 이용자 조건이 좁다는 점이 아쉽다.",
+        "_verification": {
+          "stage": "opening",
+          "passed": false,
+          "failures": [
+            "invalid_fact_id:토론 기록상 확인되지 않음",
+            "number_mismatch:001"
+          ],
+          "cited_fact_ids": [
+            "토론 기록상 확인되지 않음"
+          ],
+          "numbers": [
+            "001"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": true,
+        "_regenerated": true
+      }
+    ],
+    "pairs": [
+      {
+        "pair_id": "P1",
+        "asker_id": "HW023",
+        "target_id": "HW093",
+        "temperature_diff": 3.0,
+        "resource_overlap_bonus": 2.0,
+        "conflict_bonus": 0.0,
+        "pair_score": 7.5,
+        "shared_tags": [
+          "교통",
+          "접근성"
+        ],
+        "reason": "이해관계 대비 읍/면 접근성, 세대 차이 / 공통 쟁점 교통, 접근성 / 만족도 온도차 3점"
+      },
+      {
+        "pair_id": "P2",
+        "asker_id": "HW065",
+        "target_id": "HW093",
+        "temperature_diff": 2.0,
+        "resource_overlap_bonus": 2.0,
+        "conflict_bonus": 0.0,
+        "pair_score": 5.5,
+        "shared_tags": [
+          "교통",
+          "접근성"
+        ],
+        "reason": "이해관계 대비 읍/면 접근성 / 공통 쟁점 교통, 접근성 / 만족도 온도차 2점"
+      }
+    ],
+    "questions": [
+      {
+        "pair_id": "P1",
+        "from_id": "HW023",
+        "to_id": "HW093",
+        "발언유형": "반박",
+        "지목_대상": "접근성 문제",
+        "상대발언인용": "100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께",
+        "쟁점": "교통 접근성 체감 차이",
+        "claim": "차가 있어 실제로는 효도택시 필요성을 체감하지 못하는 사람도 있어서, 정책 효과가 모든 주민에게 동일하게 느껴지지 않습니다.",
+        "ground": {
+          "내용": "토론 기록상 확인되지 않음",
+          "인용_fact_id": "토론 기록상 확인되지 않음"
+        },
+        "warrant": "정책의 체감 효과는 각 주민의 교통수단 보유 여부나 거주 지역에 따라 다를 수 있으므로, 단일 접근성 기준만으로 정책 필요성을 일반화하기 어렵습니다.",
+        "질문": "접근성 문제를 말씀하셨는데, 자가용 보유 가구나 읍내 주민 등 실제 필요도가 낮은 이들도 정책 예산 지원에 포함되는 점에 대해 어떻게 생각하십니까?",
+        "_verification": {
+          "stage": "rebuttal",
+          "passed": false,
+          "failures": [
+            "invalid_fact_id:토론 기록상 확인되지 않음",
+            "number_mismatch:100"
+          ],
+          "cited_fact_ids": [
+            "토론 기록상 확인되지 않음"
+          ],
+          "numbers": [
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": true,
+        "_regenerated": true
+      },
+      {
+        "pair_id": "P2",
+        "from_id": "HW065",
+        "to_id": "HW093",
+        "발언유형": "반박",
+        "지목_대상": "100원 택시 큰 도움이 될 낭께",
+        "상대발언인용": "100원 택시는 병원 가고 시장 가는 데 진짜 큰 도움이 될 낭께",
+        "쟁점": "교통 접근성의 체감 차이",
+        "claim": "택시가 꼭 필요한 분도 있지만, 자가용이 있거나 읍내 거주자는 상대적으로 체감하는 효용이 다를 수 있습니다.",
+        "ground": {
+          "내용": "토론 기록상 확인되지 않음",
+          "인용_fact_id": "토론 기록상 확인되지 않음"
+        },
+        "warrant": "교통 접근성이나 자가용 보유 여부에 따라 효도택시의 필요성과 실질적 도움의 크기는 달라질 수 있기 때문입니다.",
+        "질문": "‘큰 도움이 된다고 하셨는데’, 읍내 거주자나 자가용 보유자의 체감 효용 차이는 어떻게 느끼십니까?",
+        "_verification": {
+          "stage": "rebuttal",
+          "passed": false,
+          "failures": [
+            "invalid_fact_id:토론 기록상 확인되지 않음",
+            "number_mismatch:100,100"
+          ],
+          "cited_fact_ids": [
+            "토론 기록상 확인되지 않음"
+          ],
+          "numbers": [
+            "100",
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": true,
+        "_regenerated": true
+      }
+    ],
+    "answers": [
+      {
+        "pair_id": "P1",
+        "question_to": "HW093",
+        "id": "HW093-responds-HW023-20240627-001",
+        "발언유형": "답변",
+        "지목_대상": "접근성 문제",
+        "답변유형": "입장고수",
+        "답변": "이 정책은 차가 없는 고령자나 교통 불편한 마을 주민에게 꼭 필요한 지원이라서, 자가용 있는 분들이 체감 못하더라도 실제로 이동이 막막한 입장에서는 절실하다고 생각합니다.",
+        "_verification": {
+          "stage": "answer",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "20240627",
+            "001"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      },
+      {
+        "pair_id": "P2",
+        "question_to": "HW093",
+        "id": "HW093-20240625-01",
+        "발언유형": "답변",
+        "지목_대상": "읍내 거주자나 자가용 보유자의 체감 효용 차이",
+        "답변유형": "입장고수",
+        "답변": "저는 차가 없고 오지마을에서 살다 보니 특히 병원이나 시장 갈 때 100원 택시가 절실하게 필요하지만, 읍내에 살거나 자가용 있는 분들은 저처럼 절실하게 느끼지는 않을 수도 있다고 생각합니다.",
+        "_verification": {
+          "stage": "answer",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "20240625",
+            "01",
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      }
+    ],
+    "followups": [
+      {
+        "pair_id": "P1",
+        "question_to": "HW093",
+        "id": "HW023-cross-20240627-002",
+        "발언유형": "재질문",
+        "지목_대상": "접근성 문제",
+        "수용여부": "일부해소",
+        "재질문": "자가용이 없는 만 65세 미만 주민이나, 버스승강장 거리 기준에서 소외된 경우처럼, 꼭 교통이 불편해도 지원 대상에서 빠지는 사례에는 어떻게 대응해야 합니까?",
+        "보완요구": "연령이나 거리 기준 외에도 실제 교통 불편 정도를 반영해 예외 신청이나 추가 지원 검토가 필요합니다.",
+        "_verification": {
+          "stage": "followup",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "20240627",
+            "002"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      },
+      {
+        "pair_id": "P2",
+        "question_to": "HW093",
+        "id": "HW065-20240625-recross-01",
+        "발언유형": "재질문",
+        "지목_대상": "오지마을 거주·자가용 미보유자 중심의 효용",
+        "수용여부": "일부해소",
+        "재질문": "그렇다면 오지마을이 아니면서 버스가 드물게 다니거나, 자가용이 없는 읍내 고령자 등은 정책 지원에서 소외될 여지가 있지 않습니까?",
+        "보완요구": "거주지나 자가용 보유 여부와 상관 없이, 실제 대중교통 접근성이 취약한 주민을 추가로 지원할 수 있는 기준 마련이 필요합니다.",
+        "_verification": {
+          "stage": "followup",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "20240625",
+            "01"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      }
+    ],
+    "mediations": [
+      {
+        "쟁점": "교통약자 직접 수혜",
+        "사회자질문": "교통약자 직접 수혜라는 점에서, 어떤 조건이 보장된다면 정책을 긍정적으로 평가할 수 있습니까?",
+        "대표응답": [
+          {
+            "id": "HW093",
+            "조정의견": "차가 없고 오지에 거주하는 고령 주민에게 교통권이 실질적으로 보장되는 한, 정책의 직접적 필요성이 충분하다고 생각합니다.",
+            "양보조건": "정책 대상이 실제로 교통수단이 없는 고령 주민에게 집중 지원되는 조건 유지"
+          },
+          {
+            "id": "HW065",
+            "조정의견": "자차가 있어 직접적 혜택은 없지만, 교통이 불편한 분들에게 실질적인 이동권 보장이 이루어진다면 정책을 긍정적으로 볼 수 있습니다.",
+            "양보조건": "실제 교통 불편을 겪는 어르신 등 수요자에게 효율적으로 지원된다는 조건"
+          },
+          {
+            "id": "HW023",
+            "조정의견": "읍내 거주하고 자가용을 가진 제 입장에서는 직접적 수혜와는 관련이 없으나, 교통 불편을 겪는 면 지역 고령자에게 실질적 도움이 된다면 정책의 의미는 있다고 봅니다.",
+            "양보조건": "면 지역 등 실제 교통약자 중심 지원이라는 정책 방향이 유지되는 조건"
+          }
+        ],
+        "조정정리": "대표 시민 모두 본인 상황에 따라 직접 수혜 여부에는 차이가 있으나, 정책이 실제로 교통수단이 없는 오지·면 지역 고령자 등 교통약자에게 실질적으로 집중 지원될 때 긍정적으로 평가할 수 있다는 조건이 확인됨. 추가적 조정 요구는 없음."
+      },
+      {
+        "쟁점": "접근성",
+        "사회자질문": "100원 효도택시의 접근성이 충분하다고 보시거나, 어떤 조건이 갖추어지면 더 수용할 수 있겠습니까?",
+        "대표응답": [
+          {
+            "id": "HW093",
+            "조정의견": "자가용이 없고 오지 마을에 거주하는 고령자에게 이동 편의를 보장해주는 조건에서 현재 정책이 충분하다고 생각합니다.",
+            "양보조건": "정책의 현행 기준과 조건이 유지된다면 수용 가능합니다."
+          },
+          {
+            "id": "HW065",
+            "조정의견": "저는 자가용이 있어 직접적인 불편은 없으나, 교통이 불편한 어르신들에게 도움이 된다는 조건이면 수용할 수 있습니다.",
+            "양보조건": "교통취약 어르신 위주로 유지된다면 특별히 반대할 이유 없습니다."
+          },
+          {
+            "id": "HW023",
+            "조정의견": "제가 직접 이용하지는 않지만, 교통 불편한 면 지역 어르신 위주로 지원이 이루어진다면 수용 가능할 것 같습니다.",
+            "양보조건": "교통 불편 지역 어르신 중심이면 이견 없습니다."
+          }
+        ],
+        "조정정리": "세 대표 모두 자가용이 없는 교통취약 고령자, 특히 오지마을 거주자 중심의 현행 정책 조건에서 접근성 보장이 이루어진다면 수용 가능하다는 입장입니다. 추가적인 개선 요구나 조건은 토론 기록상 확인되지 않았으며, 정책의 대상 및 운행 기준이 명확히 유지되는 것을 전제로 각자의 입장을 유지하고 있습니다."
+      },
+      {
+        "쟁점": "배차 간격과 운행 시간",
+        "사회자질문": "배차 간격이나 운행 시간이 어느 정도로 보장된다면 효도택시 정책을 충분히 수용할 수 있습니까?",
+        "대표응답": [
+          {
+            "id": "HW093",
+            "조정의견": "차가 없고 오지마을에서 실질적으로 이동이 막막한 입장에서, 병원이나 시장 등 필수 이동이 원활히 보장된다면 현 정책 조건에 만족합니다.",
+            "양보조건": "교통 불편한 고령 주민 중심으로 실질적 이동권만 보장된다면 별도 추가 조건은 없습니다."
+          },
+          {
+            "id": "HW065",
+            "조정의견": "저는 자가용이 있어 직접적인 불편은 없으나, 필요한 어르신들이 제때 이동할 수 있다면 정책 운영에 긍정적입니다.",
+            "양보조건": "기존 정책대로 교통약자 중심 운영이 이뤄진다면 별도 수용 조건은 없습니다."
+          },
+          {
+            "id": "HW023",
+            "조정의견": "제가 직접 이용할 일은 없지만, 면 지역 등 교통 불편 어르신이 적절히 이용 가능하다면 운영 취지에는 동의합니다.",
+            "양보조건": "토론 기록상 추가 운행 시간이나 배차 조건에 대한 별도 요구 사항은 확인되지 않음."
+          }
+        ],
+        "조정정리": "대표 시민들은 각자 입장 차이는 있으나, 교통 불편 고령 주민이 실질적으로 병원·시장 등 필수 이동을 제때 할 수 있도록 배차 간격과 운행 시간이 적정하게 보장된다면 현 정책을 유지 또는 긍정적으로 수용한다는 의견입니다. 별도의 구체적 시간·간격 요구는 토론 기록상 제시되지 않았습니다."
+      }
+    ],
+    "final_proposals": [
+      {
+        "id": "HW093-final-proposal-20240625",
+        "발언유형": "최종요구",
+        "키워드": "이동권, 오지마을, 고령자, 병원·시장 접근성",
+        "최종입장": "100원 효도택시 정책은 저처럼 차가 없고 오지마을에 사는 고령 주민에게 병원과 시장을 가는 데 꼭 필요하니, 이런 분들이 불편 없이 계속 이용할 수 있도록 예산과 대상, 운영 방식을 계속 보장해줬으면 합니다.",
+        "핵심요구": "차가 없고 오지마을에 사는, 실제로 병원 및 시장 이용이 꼭 필요한 고령 주민의 이동권 보장을 위해 현행 100원 효도택시 운영 기준(대상, 구간, 이용권 지급 등)을 유지 및 확실히 보장해 달라.",
+        "양보가능지점": "읍내 거주자나 자가용 보유자는 저와 체감 효용이 다를 수 있으므로, 오지 거주·차 미보유 고령자 중심의 운영 원칙은 인정합니다.",
+        "_verification": {
+          "stage": "final",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "20240625",
+            "100",
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      },
+      {
+        "id": "HW065_final",
+        "발언유형": "최종요구",
+        "키워드": "필요한 어르신 중심 실효성 유지",
+        "최종입장": "나는 직접적으로 불편을 겪지는 않지만, 실제로 교통 취약 어르신들이 실질적으로 도움을 받을 수 있도록 제도가 유지되거나 개선되면 좋겠음.",
+        "핵심요구": "대중교통 접근성이 낮은 어르신들에게 실제로 효도택시가 충분히 제공되며, 불필요한 이용 또는 자가용 보유 등으로 제도 취지가 흐려지지 않도록 대상자 선정과 운영 실효성 관리에 신경써야 함.",
+        "양보가능지점": "자가용이 있거나 대중교통 이용이 쉬운 사람은 효도택시 혜택에서 제외해도 무방함.",
+        "_verification": {
+          "stage": "final",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [],
+          "number_checked": false
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      },
+      {
+        "id": "HW023-final",
+        "발언유형": "최종요구",
+        "키워드": "이동 자유, 접근성",
+        "최종입장": "정책이 면 지역 교통취약 어르신들에게 도움은 되겠지만, 화순읍 거주자나 자가용 이용자 등은 해당 정책으로 인한 직접적 수혜가 없으므로, 정책의 목적과 대상을 분명히 하고, 거주지별로 실질적 교통 불편 정도에 따라 지원 범위를 검토할 필요가 있음.",
+        "핵심요구": "100원 효도택시 정책의 지원 대상과 지역 선정 기준을 교통 불편 정도에 따라 구체적으로 검토해, 지원이 꼭 필요한 교통취약 지역에 집중하고, 읍 지역 자가용 보유자 등은 예산집행이나 서비스 대상에서 제외하여 정책의 효율성을 높이도록 개선해야 함.",
+        "양보가능지점": "면 지역 등 대중교통 미운행으로 교통 불편이 심한 고령층의 이동권을 보장하기 위한 정책 도입 필요성에는 동의함.",
+        "_verification": {
+          "stage": "final",
+          "passed": true,
+          "failures": [],
+          "cited_fact_ids": [],
+          "numbers": [
+            "100"
+          ],
+          "number_checked": true
+        },
+        "_verification_failed": false,
+        "_regenerated": false
+      }
+    ],
+    "moderator_summary": {
+      "정책요지": "교통취약 오지마을의 만 65세 이상 고령자에게 100원 효도택시(수요응답형)를 제공해 병원·시장 등 필수시설 이동권을 보장하는 농촌 교통복지 정책.",
+      "대표입장요약": [
+        "HW093(동복면·75세·차 없음) — 오지 거주 고령자 필수, 교통권 보장 유지 요구",
+        "HW065(화순읍·67세·자가용 있음) — 직접 불편 없음, 교통약자 실질 지원만 유지되면 긍정",
+        "HW023(화순읍·45세·자가용 있음) — 읍내·자가용 보유자에겐 체감 적음, 지원 대상을 실제 불편자 중심으로 개선 필요"
+      ],
+      "핵심쟁점": [
+        "정책 대상에서 실질적 교통 불편자(자가용 없는 만 65세 미만, 거리 기준 제외자 등)가 소외될 수 있음"
+      ],
+      "주민보완요구": [
+        "연령·거리 기준 외에도 실제 교통 불편에 따라 추가 지원 검토 필요(예외신청 등)",
+        "대상자 선정 기준을 대중교통 접근성·불편 정도 중심으로 구체화 필요"
+      ],
+      "미해결쟁점": [
+        "실제 대중교통 이용이 불편한데도 지원받지 못하는 주민에 대한 구체적 예외/추가 지원 방안 미정"
+      ],
+      "한줄브리핑": "100원 효도택시는 오지 고령자의 필수 이동권 보장 효과가 크나, 실제 교통 불편자에 대한 지원기준 추가 보완과 대상자 선정의 실효성 강화 요구가 확인됨."
+    },
+    "verification_quality": {
+      "checked_statements": 12,
+      "verification_failure_count": 5,
+      "valid_fact_citation_rate": 0.0,
+      "numeric_alignment_rate": 0.5455,
+      "numeric_alignment_note": "수치 발언이 있는 경우에만 계산; 없으면 null"
+    },
+    "evidence_packs": {
+      "HW093": {
+        "cards": [],
+        "사용_규칙": []
+      },
+      "HW065": {
+        "cards": [],
+        "사용_규칙": []
+      },
+      "HW023": {
+        "cards": [],
+        "사용_규칙": []
+      }
+    }
+  },
+  "warnings": [
+    "증거팩 빌더 import 실패: ModuleNotFoundError: No module named 'evidence_pack_builder_HE'",
+    "검증 실패 후 1회 재생성:opening:HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:001,100']",
+    "검증 재실패 플래그 유지:opening:HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:001,100,100']",
+    "검증 실패 후 1회 재생성:opening:HW065:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:01,100']",
+    "검증 재실패 플래그 유지:opening:HW065:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100']",
+    "검증 실패 후 1회 재생성:opening:HW023:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100']",
+    "검증 재실패 플래그 유지:opening:HW023:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:001']",
+    "검증 실패 후 1회 재생성:rebuttal:HW023->HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100']",
+    "검증 재실패 플래그 유지:rebuttal:HW023->HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100']",
+    "검증 실패 후 1회 재생성:rebuttal:HW065->HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100,100']",
+    "검증 재실패 플래그 유지:rebuttal:HW065->HW093:['invalid_fact_id:토론 기록상 확인되지 않음', 'number_mismatch:100,100']"
+  ],
+  "report_files": {
+    "markdown": "/home/piai/다운로드/POBICA/outputs/hwasun_debate_report_20260712_043831/policy_reaction_report.md",
+    "spec_report": "/home/piai/다운로드/POBICA/outputs/hwasun_debate_report_20260712_043831/policy_report_1st.md",
+    "spec_report_html": "/home/piai/다운로드/POBICA/outputs/hwasun_debate_report_20260712_043831/policy_report_1st.html",
+    "report_data": "/home/piai/다운로드/POBICA/outputs/hwasun_debate_report_20260712_043831/report_data.json",
+    "transcript": "/home/piai/다운로드/POBICA/outputs/hwasun_debate_report_20260712_043831/debate_transcript.txt"
+  }
+}
